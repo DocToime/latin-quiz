@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latin Quiz</title>
+<style>
+  :root { --bg:#16171b; --panel:#23252b; --line:#34373f; --fg:#eceef2;
+          --muted:#9aa0aa; --accent:#4ea1ff; --ok:#3fb950; --okbg:#163024;
+          --bad:#f85149; --badbg:#3a1715; --pick:#1d3651; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body { margin:0; height:100%; }
+  body { font:17px/1.5 system-ui,-apple-system,sans-serif; background:var(--bg); color:var(--fg);
+         display:flex; justify-content:center; }
+  #app { width:100%; max-width:680px; padding:18px 16px 80px; }
+
+  h1 { font-size:22px; margin:6px 0 2px; }
+  .sub { color:var(--muted); font-size:14px; margin-bottom:18px; }
+
+  /* home */
+  .lesson { display:block; width:100%; text-align:left; background:var(--panel);
+            border:1px solid var(--line); border-radius:12px; padding:14px 16px; margin:10px 0;
+            color:var(--fg); cursor:pointer; }
+  .lesson:hover { border-color:var(--accent); }
+  .lesson .ttl { font-size:17px; font-weight:600; }
+  .lesson .gram { color:var(--muted); font-size:13px; margin-top:4px; }
+  .lesson .count { color:var(--accent); font-size:13px; margin-top:6px; }
+  .vocablink { display:inline-block; margin-top:10px; font-size:13px; color:var(--fg);
+               border:1px solid var(--line); border-radius:8px; padding:5px 11px; cursor:pointer; }
+  .vocablink:hover { border-color:var(--accent); background:var(--pick); }
+
+  /* vocabulary modal */
+  .overlay { position:fixed; inset:0; background:rgba(0,0,0,.62); z-index:50;
+             display:flex; align-items:center; justify-content:center; padding:16px; }
+  .modal { background:var(--panel); border:1px solid var(--line); border-radius:14px;
+           width:100%; max-width:560px; max-height:85vh; display:flex; flex-direction:column; }
+  .modal-head { display:flex; align-items:center; justify-content:space-between; gap:12px;
+                padding:14px 18px; border-bottom:1px solid var(--line); }
+  .modal-head h2 { margin:0; font-size:16px; line-height:1.3; }
+  .modal-close { background:none; border:0; color:var(--muted); font-size:24px; cursor:pointer; line-height:1; }
+  .vocab-list { overflow-y:auto; padding:6px 18px 16px; }
+  .vocab-row { display:flex; align-items:baseline; gap:12px; padding:9px 0; border-bottom:1px solid var(--line); }
+  .vocab-row:last-child { border-bottom:0; }
+  .vocab-w { font-family:Georgia,serif; font-size:19px; color:#ffd479; flex:none; min-width:130px; }
+  .vocab-w.play { cursor:pointer; text-decoration:underline dotted; text-underline-offset:3px; }
+  .vocab-w.play::after { content:"🔊"; font-size:.6em; vertical-align:super; margin-left:2px; opacity:.6; }
+  .vocab-g { color:var(--fg); font-size:15px; }
+
+  /* quiz */
+  #bar { display:flex; align-items:center; gap:12px; margin-bottom:14px; }
+  #bar .track { flex:1; height:8px; background:var(--panel); border-radius:6px; overflow:hidden; }
+  #bar .fill { height:100%; background:var(--accent); width:0; transition:width .25s; }
+  #bar .score { color:var(--muted); font-size:13px; white-space:nowrap; }
+  #quit { background:none; border:0; color:var(--muted); cursor:pointer; font-size:13px; }
+  .qcount { color:var(--muted); font-size:13px; margin-bottom:6px; }
+  .prompt { font-size:21px; line-height:1.4; margin:4px 0 18px; }
+  .prompt em { color:#ffd479; font-style:normal; font-family:Georgia,serif; }
+  .prompt strong { color:#fff; }
+
+  /* clickable Latin word (plays its canonical clip) */
+  .lw { cursor:pointer; text-decoration:underline dotted; text-underline-offset:3px;
+        text-decoration-color:var(--muted); }
+  .lw:hover { color:var(--accent); text-decoration-color:var(--accent); }
+  .lw::after { content:"🔊"; font-size:.62em; vertical-align:super; margin-left:1px; opacity:.5; }
+  .lw:hover::after { opacity:1; }
+
+  .opt { display:flex; align-items:center; gap:12px; width:100%; text-align:left;
+         background:var(--panel); border:2px solid var(--line); border-radius:12px;
+         padding:14px 16px; margin:9px 0; color:var(--fg); cursor:pointer; font-size:19px;
+         font-family:Georgia,serif; }
+  .opt:hover { border-color:var(--accent); }
+  .opt.pick { border-color:var(--accent); background:var(--pick); }
+  .opt.right { border-color:var(--ok); background:var(--okbg); }
+  .opt.wrong { border-color:var(--bad); background:var(--badbg); }
+  .opt .tick { margin-left:auto; font-size:18px; }
+  .opt .play { flex:none; width:38px; height:38px; border-radius:50%; border:1px solid var(--line);
+               background:#2c2f37; color:var(--fg); font-size:15px; cursor:pointer; }
+  .opt .play:hover { border-color:var(--accent); }
+
+  /* ordered tokens */
+  #answerrow { min-height:56px; border:2px dashed var(--line); border-radius:12px; padding:8px;
+               display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:4px 0 6px; }
+  #answerrow:empty::before { content:"tap the words below in order…"; color:var(--muted);
+               font-size:14px; padding:6px; }
+  #bankrow { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+  .chip { background:var(--panel); border:2px solid var(--line); border-radius:10px;
+          padding:9px 14px; font-size:19px; font-family:Georgia,serif; cursor:pointer; }
+  .chip:hover { border-color:var(--accent); }
+  #answerrow .chip.right { border-color:var(--ok); background:var(--okbg); }
+  #answerrow .chip.wrong { border-color:var(--bad); background:var(--badbg); }
+
+  /* free text */
+  input#typed { width:100%; font-size:22px; font-family:Georgia,serif; padding:12px 14px;
+                background:var(--panel); color:var(--fg); border:2px solid var(--line);
+                border-radius:12px; }
+  input#typed:focus { outline:none; border-color:var(--accent); }
+  input#typed.right { border-color:var(--ok); background:var(--okbg); }
+  input#typed.wrong { border-color:var(--bad); background:var(--badbg); }
+
+  .feedback { margin:16px 0 0; padding:12px 14px; border-radius:10px; font-size:15px; }
+  .feedback.ok { background:var(--okbg); border:1px solid var(--ok); }
+  .feedback.no { background:var(--badbg); border:1px solid var(--bad); }
+  .feedback .sol { font-family:Georgia,serif; font-size:18px; color:#fff; }
+
+  /* sticky action button */
+  #foot { position:fixed; left:0; right:0; bottom:0; display:flex; justify-content:center;
+          padding:12px; background:linear-gradient(transparent,var(--bg) 30%); }
+  .btn { width:100%; max-width:680px; border:0; border-radius:12px; padding:15px;
+         font-size:18px; font-weight:700; cursor:pointer; background:var(--accent); color:#06223f; }
+  .btn:disabled { opacity:.4; cursor:default; }
+  .btn.ghost { background:var(--panel); color:var(--fg); border:1px solid var(--line); font-weight:600; }
+
+  /* results */
+  .bigscore { font-size:42px; font-weight:800; margin:10px 0 2px; }
+  .missed { background:var(--panel); border:1px solid var(--line); border-radius:10px;
+            padding:12px 14px; margin:10px 0; }
+  .missed .q { font-size:15px; color:var(--muted); }
+  .missed .a { font-family:Georgia,serif; font-size:18px; color:var(--ok); margin-top:4px; }
+  .stack { display:flex; flex-direction:column; gap:10px; margin-top:18px; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="foot"></div>
+
+<script>
+const VIDEO_ID = "latin-quiz"
+// ---API-START--- (build_site.py swaps this block for static ./questions.json / ./clips.json / ./clips/*.mp3)
+const API = {
+  questions: `./questions.json`,
+  clips:     `./clips.json`,
+  audio:     rel => `./${rel}`,
+}
+// ---API-END---
+const $ = h => { const d=document.createElement('div'); d.innerHTML=h.trim(); return d.firstChild }
+const app = document.getElementById('app')
+const foot = document.getElementById('foot')
+
+let BANK = null, CP = [], CLIPS = new Set()
+let queue = [], pos = 0, score = 0, missed = [], picked = null, pickedSet = new Set(), ordered = []
+
+function clipKey(w){ return (w||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'') }
+function playWord(w){ new Audio(API.audio(`clips/${w}.mp3`)).play() }
+// Make every Latin word that has a clip clickable, in place, without touching HTML tags.
+function linkLatin(root){
+  if (!root || !CLIPS.size) return
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null)
+  const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode)
+  for (const node of nodes){
+    if (!/[a-zA-Z]/.test(node.nodeValue)) continue
+    if (node.parentNode && node.parentNode.classList?.contains('lw')) continue
+    const parts = node.nodeValue.split(/([A-Za-zÀ-ɏ]+)/)
+    let changed = false
+    const frag = document.createDocumentFragment()
+    for (const p of parts){
+      const key = clipKey(p)
+      if (p && /^[A-Za-zÀ-ɏ]+$/.test(p) && CLIPS.has(key)){
+        const span = document.createElement('span')
+        span.className = 'lw'; span.textContent = p; span.title = 'play'
+        span.onclick = e => { e.stopPropagation(); playWord(key) }
+        frag.appendChild(span); changed = true
+      } else frag.appendChild(document.createTextNode(p))
+    }
+    if (changed) node.parentNode.replaceChild(frag, node)
+  }
+}
+
+function fmt(s){            // tiny markdown: escape, then **bold** and *italic*
+  s = s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+  s = s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+  s = s.replace(/\*(.+?)\*/g,'<em>$1</em>')
+  return s
+}
+function norm(s){
+  return (s||'').toLowerCase().trim().normalize('NFD')
+    .replace(/[\u0300-\u036f]/g,'').replace(/^[\-\s]+/,'').replace(/\s+/g,' ')
+}
+function audioBtn(path){
+  const b = $(`<button class="play" title="play">▶</button>`)
+  b.onclick = e => { e.stopPropagation(); new Audio(API.audio(path)).play() }
+  return b
+}
+
+async function start(){
+  BANK = await (await fetch(API.questions)).json()
+  CP = BANK.checkpoints || []
+  try { CLIPS = new Set(await (await fetch(API.clips)).json()) }
+  catch (e) { CLIPS = new Set() }
+  home()
+}
+
+function countFor(id){ return BANK.questions.filter(q => q.checkpoint_id===id).length }
+
+function home(){
+  foot.innerHTML = ''
+  app.innerHTML = ''
+  app.appendChild($(`<h1>🏛️ Latin Quiz</h1>`))
+  app.appendChild($(`<div class="sub">Pick a lesson to practise. You'll get one question at a time.</div>`))
+  const all = $(`<button class="lesson"><div class="ttl">⭐ All lessons</div>
+     <div class="count">${BANK.questions.length} questions</div></button>`)
+  all.onclick = () => begin(BANK.questions.slice(), 'All lessons')
+  app.appendChild(all)
+  for (const cp of CP){
+    const n = countFor(cp.id)
+    if (!n) continue
+    const el = $(`<div class="lesson">
+        <div class="ttl">${cp.seq+1}. ${cp.label}</div>
+        ${cp.grammar ? `<div class="gram">${cp.grammar}</div>` : ''}
+        <div class="count">${n} questions · heard through ${cp.time_label||''}</div></div>`)
+    el.onclick = () => begin(BANK.questions.filter(q=>q.checkpoint_id===cp.id), cp.label)
+    const nv = (cp.vocab || []).length
+    if (nv){
+      const vl = $(`<span class="vocablink">📖 Vocabulary (${nv})</span>`)
+      vl.onclick = e => { e.stopPropagation(); openVocab(cp) }
+      el.appendChild(vl)
+    }
+    app.appendChild(el)
+  }
+}
+
+function openVocab(cp){
+  const v = cp.vocab || []
+  const overlay = $(`<div class="overlay"></div>`)
+  const modal = $(`<div class="modal">
+      <div class="modal-head"><h2>📖 ${cp.label} — vocabulary (${v.length})</h2></div>
+      <div class="vocab-list"></div></div>`)
+  const closeFn = () => { overlay.remove(); document.removeEventListener('keydown', esc) }
+  function esc(e){ if (e.key === 'Escape') closeFn() }
+  const x = $(`<button class="modal-close" title="close">✕</button>`)
+  x.onclick = closeFn
+  modal.querySelector('.modal-head').appendChild(x)
+  const list = modal.querySelector('.vocab-list')
+  if (!v.length) list.appendChild($(`<div class="vocab-g">No vocabulary listed.</div>`))
+  for (const it of v){
+    const row = $(`<div class="vocab-row"></div>`)
+    const w = $(`<span class="vocab-w${it.audio ? ' play' : ''}">${it.word}</span>`)
+    if (it.audio) w.onclick = () => playWord(clipKey(it.word))
+    row.appendChild(w)
+    row.appendChild($(`<span class="vocab-g">${it.gloss || ''}</span>`))
+    list.appendChild(row)
+  }
+  overlay.appendChild(modal)
+  overlay.onclick = e => { if (e.target === overlay) closeFn() }
+  document.addEventListener('keydown', esc)
+  document.body.appendChild(overlay)
+}
+
+function begin(qs, title){
+  queue = qs; pos = 0; score = 0; missed = []; window._title = title
+  render()
+}
+
+function setFoot(label, fn, {disabled=false, ghost=false}={}){
+  foot.innerHTML = ''
+  const b = $(`<button class="btn${ghost?' ghost':''}">${label}</button>`)
+  b.disabled = disabled; b.onclick = fn
+  foot.appendChild(b)
+  return b
+}
+
+function render(){
+  if (pos >= queue.length) return results()
+  const q = queue[pos]
+  picked = null; pickedSet = new Set(); ordered = []
+  app.innerHTML = ''
+  app.appendChild($(`<div id="bar">
+      <button id="quit">✕ quit</button>
+      <div class="track"><div class="fill" style="width:${(pos/queue.length)*100}%"></div></div>
+      <div class="score">${score} ✓</div></div>`))
+  app.querySelector('#quit').onclick = home
+  app.appendChild($(`<div class="qcount">${window._title} · question ${pos+1} of ${queue.length}</div>`))
+  const promptEl = $(`<div class="prompt">${fmt(q.prompt)}</div>`)
+  app.appendChild(promptEl); linkLatin(promptEl)
+  const body = $(`<div id="body"></div>`); app.appendChild(body)
+
+  if (q.type === 'free_text') renderText(q, body)
+  else if (q.type === 'ordered_tokens') renderOrdered(q, body)
+  else renderChoice(q, body)
+}
+
+/* ---- single / odd_one_out / multi ---- */
+function renderChoice(q, body){
+  const multi = q.type === 'multi'
+  for (const o of q.options){
+    const el = $(`<button class="opt"></button>`)
+    if (o.audio) el.appendChild(audioBtn(o.audio))
+    el.appendChild($(`<span>${o.text}</span>`))
+    el.dataset.id = o.id
+    el.onclick = () => {
+      if (multi){
+        if (pickedSet.has(o.id)){ pickedSet.delete(o.id); el.classList.remove('pick') }
+        else { pickedSet.add(o.id); el.classList.add('pick') }
+        checkBtn.disabled = pickedSet.size === 0
+      } else {
+        picked = o.id
+        body.querySelectorAll('.opt').forEach(x=>x.classList.remove('pick'))
+        el.classList.add('pick')
+        checkBtn.disabled = false
+      }
+    }
+    body.appendChild(el)
+  }
+  const checkBtn = setFoot('Check', () => gradeChoice(q, body), {disabled:true})
+}
+function gradeChoice(q, body){
+  const correct = new Set(q.answer)
+  const chosen = q.type==='multi' ? pickedSet : new Set(picked?[picked]:[])
+  const ok = correct.size===chosen.size && [...correct].every(a=>chosen.has(a))
+  body.querySelectorAll('.opt').forEach(el=>{
+    el.onclick = null
+    const id = el.dataset.id
+    if (correct.has(id)){ el.classList.remove('pick'); el.classList.add('right')
+      el.appendChild($(`<span class="tick">✓</span>`)) }
+    else if (chosen.has(id)){ el.classList.remove('pick'); el.classList.add('wrong')
+      el.appendChild($(`<span class="tick">✗</span>`)) }
+  })
+  const sol = q.answer.map(id => q.options.find(o=>o.id===id).text).join(', ')
+  finish(q, ok, sol, body)
+}
+
+/* ---- ordered tokens ---- */
+function renderOrdered(q, body){
+  body.appendChild($(`<div id="answerrow"></div>`))
+  body.appendChild($(`<div id="bankrow"></div>`))
+  const answerrow = body.querySelector('#answerrow'), bankrow = body.querySelector('#bankrow')
+  const draw = () => {
+    answerrow.innerHTML=''; bankrow.innerHTML=''
+    ordered.forEach((o,i)=>{
+      const c=$(`<button class="chip">${o.text}</button>`)
+      c.onclick=()=>{ ordered.splice(i,1); draw() }; answerrow.appendChild(c)
+    })
+    q.options.filter(o=>!ordered.includes(o)).forEach(o=>{
+      const c=$(`<button class="chip">${o.text}</button>`)
+      c.onclick=()=>{ ordered.push(o); draw() }; bankrow.appendChild(c)
+    })
+    checkBtn.disabled = ordered.length !== q.options.length
+  }
+  const checkBtn = setFoot('Check', () => gradeOrdered(q, body), {disabled:true})
+  draw()
+}
+function gradeOrdered(q, body){
+  const got = ordered.map(o=>o.id)
+  const ok = got.length===q.answer.length && got.every((id,i)=>id===q.answer[i])
+  const answerrow = body.querySelector('#answerrow')
+  ;[...answerrow.children].forEach((c,i)=>{ c.onclick=null
+    c.classList.add(got[i]===q.answer[i] ? 'right':'wrong') })
+  body.querySelectorAll('#bankrow .chip').forEach(c=>c.onclick=null)
+  const sol = q.answer.map(id => q.options.find(o=>o.id===id).text).join(' ')
+  finish(q, ok, sol, body)
+}
+
+/* ---- free text ---- */
+function renderText(q, body){
+  const inp = $(`<input id="typed" autocomplete="off" autocapitalize="off"
+                  spellcheck="false" placeholder="type your answer">`)
+  body.appendChild(inp)
+  inp.oninput = () => checkBtn.disabled = inp.value.trim()===''
+  inp.onkeydown = e => { if (e.key==='Enter' && !checkBtn.disabled) gradeText(q, body) }
+  const checkBtn = setFoot('Check', () => gradeText(q, body), {disabled:true})
+  setTimeout(()=>inp.focus(), 50)
+}
+function gradeText(q, body){
+  const inp = body.querySelector('#typed')
+  const ok = q.answer.some(a => norm(a) === norm(inp.value))
+  inp.disabled = true; inp.classList.add(ok?'right':'wrong')
+  finish(q, ok, q.answer.join(' / '), body)
+}
+
+/* ---- shared finish + results ---- */
+function finish(q, ok, solution, body){
+  if (ok) score++
+  else missed.push({prompt:q.prompt, sol:solution})
+  const fb = $(`<div class="feedback ${ok?'ok':'no'}">
+      ${ok ? '✓ Correct!' : '✗ Not quite — the answer is:'}
+      ${ok ? '' : `<div class="sol">${fmt(solution)}</div>`}</div>`)
+  body.appendChild(fb); linkLatin(fb)
+  const last = pos === queue.length-1
+  setFoot(last ? 'See results →' : 'Next →', () => { pos++; render() })
+}
+
+function results(){
+  foot.innerHTML = ''
+  const pct = queue.length ? Math.round(score/queue.length*100) : 0
+  const msg = pct>=90?'Brilliant! 🏆':pct>=70?'Great work! 🌟':pct>=50?'Good effort! 👍':'Keep practising! 💪'
+  app.innerHTML = ''
+  app.appendChild($(`<h1>${msg}</h1>`))
+  app.appendChild($(`<div class="bigscore">${score} / ${queue.length}</div>`))
+  app.appendChild($(`<div class="sub">${pct}% correct · ${window._title}</div>`))
+  if (missed.length){
+    app.appendChild($(`<div class="sub" style="margin-top:14px">Review the ones you missed:</div>`))
+    for (const m of missed){
+      const el = $(`<div class="missed"><div class="q">${fmt(m.prompt)}</div>
+                    <div class="a">${fmt(m.sol)}</div></div>`)
+      app.appendChild(el); linkLatin(el)
+    }
+  }
+  const stack = $(`<div class="stack"></div>`)
+  if (missed.length){
+    const r = $(`<button class="btn">↻ Retry the ${missed.length} I missed</button>`)
+    const wrongPrompts = new Set(missed.map(m=>m.prompt))
+    r.onclick = () => begin(queue.filter(q=>wrongPrompts.has(q.prompt)), window._title)
+    stack.appendChild(r)
+  }
+  const again = $(`<button class="btn ghost">Do this lesson again</button>`)
+  again.onclick = () => begin(queue.slice(), window._title)
+  const back = $(`<button class="btn ghost">← Back to lessons</button>`)
+  back.onclick = home
+  stack.appendChild(again); stack.appendChild(back)
+  app.appendChild(stack)
+}
+
+start()
+</script>
+</body>
+</html>

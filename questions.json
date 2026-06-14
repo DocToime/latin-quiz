@@ -1,0 +1,5136 @@
+{
+ "schema_version": 3,
+ "video_id": "latin-quiz",
+ "curated": true,
+ "checkpoints": [
+  {
+   "id": "cp_01",
+   "seq": 0,
+   "label": "Lesson 1 — Present tense verbs",
+   "end_t": 559.8,
+   "time_label": "9:19",
+   "summary": "Third-person sentences, ego/tu, conjugation patterns, infinitives, discit/et, magistra/docet, proverb",
+   "vocabulary": "poeta, discipula, scribo/scribis/scribit, studeo/studes/studet, lego/legis/legit, dormio/dormis/dormit, agricola, laboro/laboras/laborat, ego, tu, discit, et, magistra, doceo/doces/docet, qui",
+   "grammar": "Present indicative; 1st/2nd/3rd person singular; verb endings -o / -s / -t; infinitives in -are/-ere; coordinated verbs with et",
+   "vocab": [
+    {
+     "word": "discipula",
+     "gloss": "the student",
+     "audio": true
+    },
+    {
+     "word": "discis",
+     "gloss": "you learn",
+     "audio": true
+    },
+    {
+     "word": "discit",
+     "gloss": "learns",
+     "audio": true
+    },
+    {
+     "word": "doceo",
+     "gloss": "I teach",
+     "audio": true
+    },
+    {
+     "word": "doces",
+     "gloss": "you teach",
+     "audio": true
+    },
+    {
+     "word": "docet",
+     "gloss": "teaches",
+     "audio": true
+    },
+    {
+     "word": "dormio",
+     "gloss": "I sleep",
+     "audio": true
+    },
+    {
+     "word": "dormire",
+     "gloss": "to sleep",
+     "audio": true
+    },
+    {
+     "word": "dormis",
+     "gloss": "you sleep",
+     "audio": true
+    },
+    {
+     "word": "dormit",
+     "gloss": "sleeps",
+     "audio": true
+    },
+    {
+     "word": "ego",
+     "gloss": "I",
+     "audio": true
+    },
+    {
+     "word": "et",
+     "gloss": "and",
+     "audio": true
+    },
+    {
+     "word": "laboras",
+     "gloss": "you work",
+     "audio": true
+    },
+    {
+     "word": "laborat",
+     "gloss": "works",
+     "audio": true
+    },
+    {
+     "word": "laboro",
+     "gloss": "I work",
+     "audio": true
+    },
+    {
+     "word": "legit",
+     "gloss": "reads",
+     "audio": true
+    },
+    {
+     "word": "lego",
+     "gloss": "I read",
+     "audio": true
+    },
+    {
+     "word": "magistra",
+     "gloss": "the teacher",
+     "audio": true
+    },
+    {
+     "word": "qui",
+     "gloss": "who (he who)",
+     "audio": true
+    },
+    {
+     "word": "scribis",
+     "gloss": "you write",
+     "audio": true
+    },
+    {
+     "word": "scribit",
+     "gloss": "writes",
+     "audio": true
+    },
+    {
+     "word": "scribo",
+     "gloss": "I write",
+     "audio": true
+    },
+    {
+     "word": "studeo",
+     "gloss": "I study",
+     "audio": true
+    },
+    {
+     "word": "tu",
+     "gloss": "you",
+     "audio": true
+    }
+   ]
+  },
+  {
+   "id": "cp_02",
+   "seq": 1,
+   "label": "Accusative objects",
+   "end_t": 1059.0,
+   "time_label": "17:39",
+   "summary": "Word-order interlude, then accusative -m on objects; epistulam, pro-drop, video, bibit",
+   "vocabulary": "epistula, magistram, discipulam, poetam, aquam, (review of lesson 1 verbs)",
+   "grammar": "Accusative case marks direct object; flexible word order; subject omitted when clear; video/videt/vides; bibit/bibere",
+   "vocab": [
+    {
+     "word": "agricola",
+     "gloss": "the farmer",
+     "audio": true
+    },
+    {
+     "word": "aqua",
+     "gloss": "water",
+     "audio": true
+    },
+    {
+     "word": "aquam",
+     "gloss": "water",
+     "audio": true
+    },
+    {
+     "word": "bibit",
+     "gloss": "drinks",
+     "audio": true
+    },
+    {
+     "word": "discipula",
+     "gloss": "the student",
+     "audio": true
+    },
+    {
+     "word": "discipulam",
+     "gloss": "the student (object)",
+     "audio": true
+    },
+    {
+     "word": "docet",
+     "gloss": "teaches",
+     "audio": true
+    },
+    {
+     "word": "epistula",
+     "gloss": "letter",
+     "audio": true
+    },
+    {
+     "word": "epistulam",
+     "gloss": "the letter (object)",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "magistra",
+     "gloss": "the teacher",
+     "audio": true
+    },
+    {
+     "word": "magistram",
+     "gloss": "the teacher (object)",
+     "audio": true
+    },
+    {
+     "word": "poeta",
+     "gloss": "the poet (subj.)",
+     "audio": true
+    },
+    {
+     "word": "poetam",
+     "gloss": "the poet (object)",
+     "audio": true
+    },
+    {
+     "word": "scribit",
+     "gloss": "writes",
+     "audio": true
+    },
+    {
+     "word": "video",
+     "gloss": "I see",
+     "audio": true
+    }
+   ]
+  },
+  {
+   "id": "cp_03",
+   "seq": 2,
+   "label": "Genitive & adjectives",
+   "end_t": 1282.0,
+   "time_label": "21:22",
+   "summary": "Possessive -ae; adjective agreement (longa/magna/pulchra); sed, non, nemo",
+   "vocabulary": "poetae, agricolae, magistrai, longa, magna, pulchra, sed, non, nemo, bene",
+   "grammar": "Genitive (possessive) case; adjective endings match noun case/number/gender; negation with non; nemo",
+   "vocab": [
+    {
+     "word": "agricola",
+     "gloss": "the farmer",
+     "audio": true
+    },
+    {
+     "word": "agricolae",
+     "gloss": "the farmer's",
+     "audio": true
+    },
+    {
+     "word": "agricolam",
+     "gloss": "the farmer (object)",
+     "audio": true
+    },
+    {
+     "word": "discipulam",
+     "gloss": "the student (object)",
+     "audio": true
+    },
+    {
+     "word": "discit",
+     "gloss": "learns",
+     "audio": true
+    },
+    {
+     "word": "docet",
+     "gloss": "teaches",
+     "audio": true
+    },
+    {
+     "word": "epistulam",
+     "gloss": "the letter (object)",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "lego",
+     "gloss": "I read",
+     "audio": true
+    },
+    {
+     "word": "magistra",
+     "gloss": "the teacher",
+     "audio": true
+    },
+    {
+     "word": "magistrae",
+     "gloss": "the teacher's",
+     "audio": true
+    },
+    {
+     "word": "magistram",
+     "gloss": "the teacher (object)",
+     "audio": true
+    },
+    {
+     "word": "magna",
+     "gloss": "large",
+     "audio": true
+    },
+    {
+     "word": "nemo",
+     "gloss": "no one",
+     "audio": true
+    },
+    {
+     "word": "poeta",
+     "gloss": "the poet (subj.)",
+     "audio": true
+    },
+    {
+     "word": "poetae",
+     "gloss": "the poet's",
+     "audio": true
+    },
+    {
+     "word": "sed",
+     "gloss": "but",
+     "audio": true
+    }
+   ]
+  },
+  {
+   "id": "cp_04",
+   "seq": 3,
+   "label": "Story — the farmer's letter",
+   "end_t": 1548.0,
+   "time_label": "25:48",
+   "summary": "First Latin story; infinitive with docet; masculine/feminine noun pairs",
+   "vocabulary": "quod, bene (adverb), discipulus, amicus/amica, habeo/habes/habet, (story vocabulary)",
+   "grammar": "Infinitive complements (scribere docet); gender pairs (-a/-us); story reading",
+   "vocab": [
+    {
+     "word": "agricolam",
+     "gloss": "the farmer (object)",
+     "audio": true
+    },
+    {
+     "word": "amica",
+     "gloss": "female friend",
+     "audio": true
+    },
+    {
+     "word": "amicam",
+     "gloss": "a female friend (object)",
+     "audio": true
+    },
+    {
+     "word": "amicus",
+     "gloss": "friend",
+     "audio": true
+    },
+    {
+     "word": "discipula",
+     "gloss": "the student",
+     "audio": true
+    },
+    {
+     "word": "discipulae",
+     "gloss": "the student's",
+     "audio": true
+    },
+    {
+     "word": "discipulam",
+     "gloss": "the student (object)",
+     "audio": true
+    },
+    {
+     "word": "discipuli",
+     "gloss": "the male student's",
+     "audio": true
+    },
+    {
+     "word": "discipulus",
+     "gloss": "the male student",
+     "audio": true
+    },
+    {
+     "word": "docet",
+     "gloss": "teaches",
+     "audio": true
+    },
+    {
+     "word": "habeo",
+     "gloss": "I have",
+     "audio": true
+    },
+    {
+     "word": "habet",
+     "gloss": "has",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "magistra",
+     "gloss": "the teacher",
+     "audio": true
+    },
+    {
+     "word": "scribere",
+     "gloss": "to write",
+     "audio": true
+    },
+    {
+     "word": "scribit",
+     "gloss": "writes",
+     "audio": true
+    }
+   ]
+  },
+  {
+   "id": "cp_05",
+   "seq": 4,
+   "label": "Second declension & esse",
+   "end_t": 1661.0,
+   "time_label": "27:41",
+   "summary": "1st vs 2nd declension; liber/librum, gladius; first/second declension tables",
+   "vocabulary": "discipulus, amicus, liber, gladius, librum, gladium, discipuli, amici",
+   "grammar": "First declension (mostly feminine -a); second declension masculine (-us/-um/-i); nominative vs accusative in 2nd declension",
+   "vocab": [
+    {
+     "word": "amicum",
+     "gloss": "a friend",
+     "audio": true
+    },
+    {
+     "word": "amicus",
+     "gloss": "friend",
+     "audio": true
+    },
+    {
+     "word": "discipula",
+     "gloss": "the student",
+     "audio": true
+    },
+    {
+     "word": "discipulam",
+     "gloss": "the student (object)",
+     "audio": true
+    },
+    {
+     "word": "discipuli",
+     "gloss": "the male student's",
+     "audio": true
+    },
+    {
+     "word": "discipulum",
+     "gloss": "the male student (object)",
+     "audio": true
+    },
+    {
+     "word": "discipulus",
+     "gloss": "the male student",
+     "audio": true
+    },
+    {
+     "word": "gladium",
+     "gloss": "a sword",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "librum",
+     "gloss": "a book (object)",
+     "audio": true
+    },
+    {
+     "word": "poeta",
+     "gloss": "the poet (subj.)",
+     "audio": true
+    },
+    {
+     "word": "scribit",
+     "gloss": "writes",
+     "audio": true
+    }
+   ]
+  },
+  {
+   "id": "cp_06",
+   "seq": 5,
+   "label": "Esse, possession & Europa story (part 1)",
+   "end_t": 2137.0,
+   "time_label": "35:37",
+   "summary": "Sum/es/est; mea/meus; posse; desiderare; puella; Jupiter story begins",
+   "vocabulary": "est, sum, es, mea, meus, magnus/magna, potest, pos, desidero/desiderat, puella, puellae, deus, terra, habitat, spectat, Europa, timida, taurus, se",
+   "grammar": "Irregular verb esse; predicate adjectives; posse + infinitive; story narrative",
+   "vocab": [
+    {
+     "word": "agricola",
+     "gloss": "the farmer",
+     "audio": true
+    },
+    {
+     "word": "desidero",
+     "gloss": "I desire",
+     "audio": true
+    },
+    {
+     "word": "discipula",
+     "gloss": "the student",
+     "audio": true
+    },
+    {
+     "word": "es",
+     "gloss": "you are",
+     "audio": true
+    },
+    {
+     "word": "est",
+     "gloss": "is",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "jupiter",
+     "gloss": "Jupiter",
+     "audio": false
+    },
+    {
+     "word": "poeta",
+     "gloss": "the poet (subj.)",
+     "audio": true
+    },
+    {
+     "word": "se",
+     "gloss": "himself",
+     "audio": false
+    },
+    {
+     "word": "sum",
+     "gloss": "I am",
+     "audio": false
+    },
+    {
+     "word": "taurum",
+     "gloss": "a bull",
+     "audio": false
+    },
+    {
+     "word": "transformat",
+     "gloss": "transforms",
+     "audio": false
+    },
+    {
+     "word": "tu",
+     "gloss": "you",
+     "audio": true
+    }
+   ]
+  },
+  {
+   "id": "cp_07",
+   "seq": 6,
+   "label": "Ablative — location & motion",
+   "end_t": 2466.0,
+   "time_label": "41:06",
+   "summary": "In + ablative for location; in/ad + accusative for motion into; vinum, silva",
+   "vocabulary": "vinum, silva, siluam, ambulo/ambulas, dea, ad, Olympo/Olympum, Olympi",
+   "grammar": "Ablative of place where (in + abl); accusative of place to which (in/ad + acc); neuter nouns (-um); prepositions in and ad",
+   "vocab": [
+    {
+     "word": "ad",
+     "gloss": "to",
+     "audio": false
+    },
+    {
+     "word": "agricola",
+     "gloss": "the farmer",
+     "audio": true
+    },
+    {
+     "word": "ambulare",
+     "gloss": "to walk",
+     "audio": true
+    },
+    {
+     "word": "ambulas",
+     "gloss": "you walk",
+     "audio": true
+    },
+    {
+     "word": "ambulat",
+     "gloss": "walks",
+     "audio": true
+    },
+    {
+     "word": "ambulo",
+     "gloss": "I walk",
+     "audio": true
+    },
+    {
+     "word": "aquam",
+     "gloss": "water",
+     "audio": true
+    },
+    {
+     "word": "bibit",
+     "gloss": "drinks",
+     "audio": true
+    },
+    {
+     "word": "dormit",
+     "gloss": "sleeps",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "portat",
+     "gloss": "carries",
+     "audio": false
+    },
+    {
+     "word": "silva",
+     "gloss": "forest",
+     "audio": false
+    },
+    {
+     "word": "silvam",
+     "gloss": "the forest",
+     "audio": false
+    }
+   ]
+  },
+  {
+   "id": "cp_08",
+   "seq": 7,
+   "label": "Declension review & plurals",
+   "end_t": 3937.0,
+   "time_label": "65:37",
+   "summary": "Noun tables; plural forms; insula story; dative/locative preview; dare",
+   "vocabulary": "insula, insulae, amici, discipuli, discunt, legunt, omnis, Roma, Italia, Europa, viam/viae, ducit, habito, dare, das, damus, magister, tunicam",
+   "grammar": "Plural nominative/accusative; locative (Romae); dative (indirect object); verb dare; plural verb endings",
+   "vocab": [
+    {
+     "word": "agricola",
+     "gloss": "the farmer",
+     "audio": true
+    },
+    {
+     "word": "agricolae",
+     "gloss": "the farmer's",
+     "audio": true
+    },
+    {
+     "word": "ambulamus",
+     "gloss": "we walk",
+     "audio": true
+    },
+    {
+     "word": "ambulant",
+     "gloss": "they walk",
+     "audio": true
+    },
+    {
+     "word": "ambulat",
+     "gloss": "walks",
+     "audio": true
+    },
+    {
+     "word": "amici",
+     "gloss": "friends",
+     "audio": true
+    },
+    {
+     "word": "amicus",
+     "gloss": "friend",
+     "audio": true
+    },
+    {
+     "word": "bibunt",
+     "gloss": "they drink",
+     "audio": true
+    },
+    {
+     "word": "da",
+     "gloss": "give",
+     "audio": true
+    },
+    {
+     "word": "das",
+     "gloss": "you give",
+     "audio": true
+    },
+    {
+     "word": "dat",
+     "gloss": "gives",
+     "audio": true
+    },
+    {
+     "word": "dei",
+     "gloss": "the gods",
+     "audio": true
+    },
+    {
+     "word": "discipulo",
+     "gloss": "to the male student",
+     "audio": false
+    },
+    {
+     "word": "dormit",
+     "gloss": "sleeps",
+     "audio": true
+    },
+    {
+     "word": "gladium",
+     "gloss": "a sword",
+     "audio": true
+    },
+    {
+     "word": "habitant",
+     "gloss": "they live",
+     "audio": true
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "laborant",
+     "gloss": "they work",
+     "audio": true
+    },
+    {
+     "word": "laborat",
+     "gloss": "works",
+     "audio": true
+    },
+    {
+     "word": "legunt",
+     "gloss": "they read",
+     "audio": true
+    },
+    {
+     "word": "magistro",
+     "gloss": "to the male teacher",
+     "audio": false
+    },
+    {
+     "word": "olympo",
+     "gloss": "in Olympus",
+     "audio": false
+    },
+    {
+     "word": "scribit",
+     "gloss": "writes",
+     "audio": true
+    },
+    {
+     "word": "tunicam",
+     "gloss": "a tunic",
+     "audio": false
+    }
+   ]
+  },
+  {
+   "id": "cp_09",
+   "seq": 8,
+   "label": "Third declension & dative practice",
+   "end_t": 4636.0,
+   "time_label": "77:16",
+   "summary": "Miles, felis, rex; third-declension patterns; dative with dare",
+   "vocabulary": "miles, felis, rex, civis, corpus, (third-declension nouns from lesson)",
+   "grammar": "Third declension nouns; genitive stem; dative case practice; comparative declension review",
+   "vocab": [
+    {
+     "word": "amat",
+     "gloss": "loves",
+     "audio": true
+    },
+    {
+     "word": "cibi",
+     "gloss": "of the food / food's",
+     "audio": true
+    },
+    {
+     "word": "cibum",
+     "gloss": "food",
+     "audio": true
+    },
+    {
+     "word": "cibus",
+     "gloss": "food",
+     "audio": true
+    },
+    {
+     "word": "dat",
+     "gloss": "gives",
+     "audio": true
+    },
+    {
+     "word": "dominus",
+     "gloss": "lord / master",
+     "audio": false
+    },
+    {
+     "word": "edit",
+     "gloss": "eats",
+     "audio": false
+    },
+    {
+     "word": "edunt",
+     "gloss": "they eat",
+     "audio": true
+    },
+    {
+     "word": "felem",
+     "gloss": "cat (accusative)",
+     "audio": false
+    },
+    {
+     "word": "feles",
+     "gloss": "cats",
+     "audio": true
+    },
+    {
+     "word": "felis",
+     "gloss": "the cat",
+     "audio": true
+    },
+    {
+     "word": "mihi",
+     "gloss": "to me",
+     "audio": false
+    },
+    {
+     "word": "murem",
+     "gloss": "the mouse",
+     "audio": true
+    },
+    {
+     "word": "mures",
+     "gloss": "mice",
+     "audio": true
+    },
+    {
+     "word": "muris",
+     "gloss": "of the mouse / the mouse's",
+     "audio": true
+    },
+    {
+     "word": "mus",
+     "gloss": "the mouse",
+     "audio": true
+    },
+    {
+     "word": "spectat",
+     "gloss": "looks at",
+     "audio": false
+    }
+   ]
+  },
+  {
+   "id": "cp_10",
+   "seq": 9,
+   "label": "Lord's Prayer — imperative & subjunctive",
+   "end_t": 5144.21,
+   "time_label": "85:44",
+   "summary": "Pater noster walkthrough; subjunctive and imperative preview",
+   "vocabulary": "pater, caelum, nomen, regnum, voluntas, panis, peccata, debitor, tentatio, libera",
+   "grammar": "Imperative mood; subjunctive preview; prayer as capstone reading",
+   "vocab": [
+    {
+     "word": "adveniat",
+     "gloss": "may arrive / may come",
+     "audio": true
+    },
+    {
+     "word": "caelis",
+     "gloss": "the heavens",
+     "audio": true
+    },
+    {
+     "word": "caelum",
+     "gloss": "heaven / sky",
+     "audio": true
+    },
+    {
+     "word": "da",
+     "gloss": "give",
+     "audio": true
+    },
+    {
+     "word": "debita",
+     "gloss": "debts",
+     "audio": false
+    },
+    {
+     "word": "dimitte",
+     "gloss": "dismiss",
+     "audio": true
+    },
+    {
+     "word": "hodie",
+     "gloss": "today",
+     "audio": false
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "nobis",
+     "gloss": "to us",
+     "audio": true
+    },
+    {
+     "word": "nomen",
+     "gloss": "name",
+     "audio": true
+    },
+    {
+     "word": "noster",
+     "gloss": "our",
+     "audio": true
+    },
+    {
+     "word": "nostrum",
+     "gloss": "our",
+     "audio": true
+    },
+    {
+     "word": "panem",
+     "gloss": "bread",
+     "audio": true
+    },
+    {
+     "word": "pater",
+     "gloss": "father",
+     "audio": true
+    },
+    {
+     "word": "quotidianum",
+     "gloss": "daily",
+     "audio": true
+    },
+    {
+     "word": "regnum",
+     "gloss": "kingdom",
+     "audio": true
+    },
+    {
+     "word": "sanctificetur",
+     "gloss": "be hallowed",
+     "audio": false
+    },
+    {
+     "word": "tuum",
+     "gloss": "your",
+     "audio": false
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "cp_01_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *dormio* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I sleep",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you sleep",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "he/she sleeps",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to sleep",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 229.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *dormis* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I sleep",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you sleep",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "he/she sleeps",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "they sleep",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 256.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *dormit* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I sleep",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you sleep",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "he/she sleeps",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "we sleep",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 249.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0004",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *ego* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "he",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "we",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 106.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *tu* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "she",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "they",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 256.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0006",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Listen to all three clips. Which one means **you** sleep?",
+   "options": [
+    {
+     "id": "a",
+     "text": "dormio",
+     "audio": "clips/dormio.mp3"
+    },
+    {
+     "id": "b",
+     "text": "dormis",
+     "audio": "clips/dormis.mp3"
+    },
+    {
+     "id": "c",
+     "text": "dormit",
+     "audio": "clips/dormit.mp3"
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 256.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0007",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Listen to all three clips. Which one means **I** work?",
+   "options": [
+    {
+     "id": "a",
+     "text": "laboro",
+     "audio": "clips/laboro.mp3"
+    },
+    {
+     "id": "b",
+     "text": "laboras",
+     "audio": "clips/laboras.mp3"
+    },
+    {
+     "id": "c",
+     "text": "laborat",
+     "audio": "clips/laborat.mp3"
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 296.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Latin verbs change their ending to show *who* does the action. Which ending means **'I'**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "-o",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-s",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "-t",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "-mus",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 137.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0009",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which verb ending means **'you'** (one person)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "-o",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-s",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "-t",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "-nt",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 204.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0010",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which verb ending means **'he / she / it'**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "-o",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-s",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "-t",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "-mus",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 166.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0011",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*laboro* = 'I work'. Type the Latin for **'you work'**:",
+   "options": [],
+   "answer": [
+    "laboras"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 309.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0012",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*scribo* = 'I write'. Type the Latin for **'he/she writes'**:",
+   "options": [],
+   "answer": [
+    "scribit"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 10.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0013",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "Type the Latin for **'I read'**:",
+   "options": [],
+   "answer": [
+    "lego"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 186.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0014",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the forms that mean **'I …'** (1st person singular).",
+   "options": [
+    {
+     "id": "a",
+     "text": "dormio",
+     "audio": "clips/dormio.mp3"
+    },
+    {
+     "id": "b",
+     "text": "scribis",
+     "audio": "clips/scribis.mp3"
+    },
+    {
+     "id": "c",
+     "text": "laboro",
+     "audio": "clips/laboro.mp3"
+    },
+    {
+     "id": "d",
+     "text": "legit",
+     "audio": "clips/legit.mp3"
+    },
+    {
+     "id": "e",
+     "text": "studeo",
+     "audio": "clips/studeo.mp3"
+    },
+    {
+     "id": "f",
+     "text": "doces",
+     "audio": "clips/doces.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "c",
+    "e"
+   ],
+   "concepts": [
+    "verb_1sg_present"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 296.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0015",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the **'you (one person)'** forms.",
+   "options": [
+    {
+     "id": "a",
+     "text": "dormis",
+     "audio": "clips/dormis.mp3"
+    },
+    {
+     "id": "b",
+     "text": "scribit",
+     "audio": "clips/scribit.mp3"
+    },
+    {
+     "id": "c",
+     "text": "laboras",
+     "audio": "clips/laboras.mp3"
+    },
+    {
+     "id": "d",
+     "text": "lego",
+     "audio": "clips/lego.mp3"
+    },
+    {
+     "id": "e",
+     "text": "discis",
+     "audio": "clips/discis.mp3"
+    },
+    {
+     "id": "f",
+     "text": "docet",
+     "audio": "clips/docet.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "c",
+    "e"
+   ],
+   "concepts": [
+    "verb_2sg_present"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 437.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0016",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the **'he / she / it'** forms.",
+   "options": [
+    {
+     "id": "a",
+     "text": "dormit",
+     "audio": "clips/dormit.mp3"
+    },
+    {
+     "id": "b",
+     "text": "scribo",
+     "audio": "clips/scribo.mp3"
+    },
+    {
+     "id": "c",
+     "text": "laborat",
+     "audio": "clips/laborat.mp3"
+    },
+    {
+     "id": "d",
+     "text": "legit",
+     "audio": "clips/legit.mp3"
+    },
+    {
+     "id": "e",
+     "text": "studeo",
+     "audio": "clips/studeo.mp3"
+    },
+    {
+     "id": "f",
+     "text": "discit",
+     "audio": "clips/discit.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "c",
+    "d",
+    "f"
+   ],
+   "concepts": [
+    "verb_3sg_present"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 383.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0017",
+   "type": "odd_one_out",
+   "answer_type": "single",
+   "prompt": "Three of these mean **'he/she does it'**. Pick the odd one out.",
+   "options": [
+    {
+     "id": "a",
+     "text": "scribit",
+     "audio": "clips/scribit.mp3"
+    },
+    {
+     "id": "b",
+     "text": "legit",
+     "audio": "clips/legit.mp3"
+    },
+    {
+     "id": "c",
+     "text": "dormis",
+     "audio": "clips/dormis.mp3"
+    },
+    {
+     "id": "d",
+     "text": "laborat",
+     "audio": "clips/laborat.mp3"
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "verb_3sg_present"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 249.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0018",
+   "type": "odd_one_out",
+   "answer_type": "single",
+   "prompt": "Three of these mean **'I do it'**. Pick the odd one out.",
+   "options": [
+    {
+     "id": "a",
+     "text": "dormio",
+     "audio": "clips/dormio.mp3"
+    },
+    {
+     "id": "b",
+     "text": "studeo",
+     "audio": "clips/studeo.mp3"
+    },
+    {
+     "id": "c",
+     "text": "laboro",
+     "audio": "clips/laboro.mp3"
+    },
+    {
+     "id": "d",
+     "text": "doces",
+     "audio": "clips/doces.mp3"
+    }
+   ],
+   "answer": [
+    "d"
+   ],
+   "concepts": [
+    "verb_1sg_present"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 499.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0019",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *dormire* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I sleep",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you sleep",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "to sleep",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "they sleep",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 368.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0020",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*scribit* = 'writes'. The infinitive **'to write'** is scrib__ (type the ending):",
+   "options": [],
+   "answer": [
+    "ere"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 366.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0021",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"I teach and you teach.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "doceo",
+     "audio": "clips/doceo.mp3"
+    },
+    {
+     "id": "b",
+     "text": "doces",
+     "audio": "clips/doces.mp3"
+    },
+    {
+     "id": "c",
+     "text": "ego",
+     "audio": "clips/ego.mp3"
+    },
+    {
+     "id": "d",
+     "text": "et",
+     "audio": "clips/et.mp3"
+    },
+    {
+     "id": "e",
+     "text": "tu",
+     "audio": "clips/tu.mp3"
+    }
+   ],
+   "answer": [
+    "c",
+    "a",
+    "d",
+    "e",
+    "b"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 499.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0022",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The teacher teaches and the student learns.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipula",
+     "audio": "clips/discipula.mp3"
+    },
+    {
+     "id": "b",
+     "text": "discit",
+     "audio": "clips/discit.mp3"
+    },
+    {
+     "id": "c",
+     "text": "docet",
+     "audio": "clips/docet.mp3"
+    },
+    {
+     "id": "d",
+     "text": "et",
+     "audio": "clips/et.mp3"
+    },
+    {
+     "id": "e",
+     "text": "magistra",
+     "audio": "clips/magistra.mp3"
+    }
+   ],
+   "answer": [
+    "e",
+    "c",
+    "d",
+    "a",
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 472.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_01_c_0023",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "The proverb *qui docet discit* means:",
+   "options": [
+    {
+     "id": "a",
+     "text": "He who teaches learns.",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "The teacher sleeps.",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "Teach and you will read.",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "Who is the student?",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_01",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 510.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Every sentence has a **verb** — the action word. In *'The girl writes a letter'*, which word is the verb?",
+   "options": [
+    {
+     "id": "a",
+     "text": "girl",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "writes",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "letter",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "The **subject** is who (or what) does the action. In *'The girl writes a letter'*, what is the subject?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the girl",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "writes",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "a letter",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "The **object** is who (or what) the action is done to. In *'The girl writes a letter'*, what is the object?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the girl",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "writes",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "a letter",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0004",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In English: *'The dog bites the man.'* Who does the biting (the **subject**)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the dog",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the man",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Still *'The dog bites the man.'* Who gets bitten (the **object**)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the dog",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the man",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0006",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Now the words are reordered: *'The man bites the dog.'* Who does the biting now?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the dog",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the man",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0007",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In English, what told you 'the dog' was the **subject** in 'The dog bites the man' but the **object** in 'The man bites the dog'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "its position — which side of the verb it sits on (word order)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the word 'dog' changed its spelling",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "nothing — both mean the same",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the verb changed",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 875.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "English shows subject vs object by **word order**. Latin does it a different way — it changes the word's …",
+   "options": [
+    {
+     "id": "a",
+     "text": "ending",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "order too",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "first letter",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "meaning",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles",
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 888.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0009",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In Latin, adding **-m** to a noun (epistula → epistula**m**) marks it as the …",
+   "options": [
+    {
+     "id": "a",
+     "text": "object — the thing the action is done to",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "subject — the doer",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "plural",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "past tense",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 888.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0010",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Each noun below is either a subject or an object. Select ALL the ones that are **objects** (having the action done to them).",
+   "options": [
+    {
+     "id": "a",
+     "text": "epistula",
+     "audio": "clips/epistula.mp3"
+    },
+    {
+     "id": "b",
+     "text": "epistulam",
+     "audio": "clips/epistulam.mp3"
+    },
+    {
+     "id": "c",
+     "text": "aquam",
+     "audio": "clips/aquam.mp3"
+    },
+    {
+     "id": "d",
+     "text": "magistra",
+     "audio": "clips/magistra.mp3"
+    },
+    {
+     "id": "e",
+     "text": "discipulam",
+     "audio": "clips/discipulam.mp3"
+    },
+    {
+     "id": "f",
+     "text": "poeta",
+     "audio": "clips/poeta.mp3"
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "e"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 888.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0011",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*aqua* = 'water'. To make it the **object** ('… the water'), add one letter: aqua__",
+   "options": [],
+   "answer": [
+    "m"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1029.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0012",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*magistra* (the teacher, as subject). Type the **object** form (the teacher, being taught/seen):",
+   "options": [],
+   "answer": [
+    "magistram"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 839.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0013",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Listen to both clips. Which one is the **object** form — 'the teacher' being acted upon?",
+   "options": [
+    {
+     "id": "a",
+     "text": "magistra",
+     "audio": "clips/magistra.mp3"
+    },
+    {
+     "id": "b",
+     "text": "magistram",
+     "audio": "clips/magistram.mp3"
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 839.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0014",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Sentence: **magistra discipulam docet.** (*magistra* ends in -a = subject; *discipulam* ends in -am = object.) Who is doing the teaching?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the teacher (magistra)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the student (discipulam)",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 837.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0015",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Now the endings swap: **discipula magistram docet.** Who is doing the teaching *this* time?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the teacher (magistram)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the student (discipula)",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 839.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0016",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*magistra discipulam docet* and *discipula magistram docet* use almost the same words. What decides **who teaches whom**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the word endings (-a vs -am)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the word order",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "whichever word comes first",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "it cannot be known",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 839.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0017",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Because the *endings* carry the meaning, Latin can move words around. Do **poeta epistulam scribit** and **epistulam poeta scribit** mean the same thing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes — poeta is still the writer, epistulam still the letter",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "No — moving the words swaps who does what",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 946.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0018",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The teacher teaches the student.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipulam",
+     "audio": "clips/discipulam.mp3"
+    },
+    {
+     "id": "b",
+     "text": "docet",
+     "audio": "clips/docet.mp3"
+    },
+    {
+     "id": "c",
+     "text": "magistra",
+     "audio": "clips/magistra.mp3"
+    }
+   ],
+   "answer": [
+    "c",
+    "a",
+    "b"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 837.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0019",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*poetam video* has no separate word for 'I'. How do we still know it means **'I** see the poet'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the verb ending -o means 'I'",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "poetam means 'I'",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "Latin always means 'I'",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "we cannot know",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 946.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_02_c_0020",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The farmer drinks water.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "agricola",
+     "audio": "clips/agricola.mp3"
+    },
+    {
+     "id": "b",
+     "text": "aquam",
+     "audio": "clips/aquam.mp3"
+    },
+    {
+     "id": "c",
+     "text": "bibit",
+     "audio": "clips/bibit.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_02",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1029.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In English: *'the farmer's water'*. Which word shows **who owns** the water?",
+   "options": [
+    {
+     "id": "a",
+     "text": "farmer's",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "water",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1102.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "English shows possession with **'s** or the word **'of'**. Latin shows it by changing the noun's …",
+   "options": [
+    {
+     "id": "a",
+     "text": "ending",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "order",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "first letter",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "verb",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles",
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1102.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "The ending **-ae** on *poetae*, *agricolae*, *magistrae* shows …",
+   "options": [
+    {
+     "id": "a",
+     "text": "possession — 'of …' / '…'s'",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the object",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the plural",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the past",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1102.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0004",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which form means **'the farmer's'** (of the farmer)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "agricola",
+     "audio": "clips/agricola.mp3"
+    },
+    {
+     "id": "b",
+     "text": "agricolam",
+     "audio": "clips/agricolam.mp3"
+    },
+    {
+     "id": "c",
+     "text": "agricolae",
+     "audio": "clips/agricolae.mp3"
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1118.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which form is the **object** — 'the farmer' being acted upon?",
+   "options": [
+    {
+     "id": "a",
+     "text": "agricola",
+     "audio": "clips/agricola.mp3"
+    },
+    {
+     "id": "b",
+     "text": "agricolam",
+     "audio": "clips/agricolam.mp3"
+    },
+    {
+     "id": "c",
+     "text": "agricolae",
+     "audio": "clips/agricolae.mp3"
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1313.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0006",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the **possessive** ('of …' / '…'s) forms.",
+   "options": [
+    {
+     "id": "a",
+     "text": "agricolae",
+     "audio": "clips/agricolae.mp3"
+    },
+    {
+     "id": "b",
+     "text": "poetae",
+     "audio": "clips/poetae.mp3"
+    },
+    {
+     "id": "c",
+     "text": "magistra",
+     "audio": "clips/magistra.mp3"
+    },
+    {
+     "id": "d",
+     "text": "magistrae",
+     "audio": "clips/magistrae.mp3"
+    },
+    {
+     "id": "e",
+     "text": "discipulam",
+     "audio": "clips/discipulam.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "d"
+   ],
+   "concepts": [
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1132.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0007",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*poeta* = 'the poet'. Type the **possessive** form, 'the poet's':",
+   "options": [],
+   "answer": [
+    "poetae"
+   ],
+   "concepts": [
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1102.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0008",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "'the poet' = poeta. 'the poet's' = poet__ (type just the ending):",
+   "options": [],
+   "answer": [
+    "ae"
+   ],
+   "concepts": [
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1102.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0009",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"I read the poet's letter.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "epistulam",
+     "audio": "clips/epistulam.mp3"
+    },
+    {
+     "id": "b",
+     "text": "lego",
+     "audio": "clips/lego.mp3"
+    },
+    {
+     "id": "c",
+     "text": "poetae",
+     "audio": "clips/poetae.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "c",
+    "b"
+   ],
+   "concepts": [
+    "noun_gen_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1102.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0010",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*magistra magna docet* = 'the large teacher teaches'. If the teacher becomes the **object** (*magistram*), what happens to 'large' (*magna*)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it changes to magnam, to match",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "it stays magna",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "it becomes magnus",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "it is dropped",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1181.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0011",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In *magistra docet sed nemo discit*, what does **nemo** mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "no one",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "now",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "never",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the name",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1273.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*discipula* is a female student. The **male** student is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipulus",
+     "audio": "clips/discipulus.mp3"
+    },
+    {
+     "id": "b",
+     "text": "discipulam",
+     "audio": "clips/discipulam.mp3"
+    },
+    {
+     "id": "c",
+     "text": "discipulae",
+     "audio": "clips/discipulae.mp3"
+    },
+    {
+     "id": "d",
+     "text": "discipuli",
+     "audio": "clips/discipuli.mp3"
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1424.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0002",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the **male** (-us) people.",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipulus",
+     "audio": "clips/discipulus.mp3"
+    },
+    {
+     "id": "b",
+     "text": "amicus",
+     "audio": "clips/amicus.mp3"
+    },
+    {
+     "id": "c",
+     "text": "discipula",
+     "audio": "clips/discipula.mp3"
+    },
+    {
+     "id": "d",
+     "text": "amica",
+     "audio": "clips/amica.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1485.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *habeo* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I have",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you have",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "he has",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to have",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1496.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0004",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*habeo* = 'I have'. Type the Latin for **'you have'**:",
+   "options": [],
+   "answer": [
+    "habes"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1539.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In *magistra agricolam scribere docet*, what does **scribere** mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "to write",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "writes",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "I write",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the writer",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1495.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0006",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*scribit* = 'writes'. 'to write' = scrib__ (type the infinitive ending):",
+   "options": [],
+   "answer": [
+    "ere"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1495.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0007",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The male student has a female friend.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "amicam",
+     "audio": "clips/amicam.mp3"
+    },
+    {
+     "id": "b",
+     "text": "discipulus",
+     "audio": "clips/discipulus.mp3"
+    },
+    {
+     "id": "c",
+     "text": "habet",
+     "audio": "clips/habet.mp3"
+    }
+   ],
+   "answer": [
+    "b",
+    "a",
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1516.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_05_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*discipulus* (subject). As the **object** it becomes …",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipulum",
+     "audio": "clips/discipulum.mp3"
+    },
+    {
+     "id": "b",
+     "text": "discipuli",
+     "audio": "clips/discipuli.mp3"
+    },
+    {
+     "id": "c",
+     "text": "discipula",
+     "audio": "clips/discipula.mp3"
+    },
+    {
+     "id": "d",
+     "text": "discipulus",
+     "audio": "clips/discipulus.mp3"
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_05",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1443.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_05_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "1st-declension objects end in **-am** (discipula → discipulam). 2nd-declension masculine objects end in …",
+   "options": [
+    {
+     "id": "a",
+     "text": "-um",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-am",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "-us",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "-ae",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_05",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1566.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_05_c_0003",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "These are all 2nd-declension (male) nouns. Select ALL the ones that are **objects** (having the action done to them).",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipulum",
+     "audio": "clips/discipulum.mp3"
+    },
+    {
+     "id": "b",
+     "text": "amicum",
+     "audio": "clips/amicum.mp3"
+    },
+    {
+     "id": "c",
+     "text": "gladium",
+     "audio": "clips/gladium.mp3"
+    },
+    {
+     "id": "d",
+     "text": "discipulus",
+     "audio": "clips/discipulus.mp3"
+    },
+    {
+     "id": "e",
+     "text": "amicus",
+     "audio": "clips/amicus.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_05",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1624.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_05_c_0004",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "*amicus* = 'a (male) friend' (subject). Type the **object** form:",
+   "options": [],
+   "answer": [
+    "amicum"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_05",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1495.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_05_c_0005",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The poet writes a book.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "librum",
+     "audio": "clips/librum.mp3"
+    },
+    {
+     "id": "b",
+     "text": "poeta",
+     "audio": "clips/poeta.mp3"
+    },
+    {
+     "id": "c",
+     "text": "scribit",
+     "audio": "clips/scribit.mp3"
+    }
+   ],
+   "answer": [
+    "b",
+    "a",
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_05",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1566.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which form means **'I am'**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "sum",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "es",
+     "audio": "clips/es.mp3"
+    },
+    {
+     "id": "c",
+     "text": "est",
+     "audio": "clips/est.mp3"
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1854.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *est* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I am",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you are",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "is",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "are",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1668.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0003",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "Type the Latin for **'you are'** (one person):",
+   "options": [],
+   "answer": [
+    "es"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1816.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0004",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*agricola poeta est* = 'the farmer is a poet'. Why is there **no -m** on *poeta*, even though it comes after 'farmer'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "'est' (to be) just links two equal nouns — there is no object",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "poeta can never take -m",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the farmer is plural",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "it is a mistake",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1668.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0005",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"You are a student.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "discipula",
+     "audio": "clips/discipula.mp3"
+    },
+    {
+     "id": "b",
+     "text": "es",
+     "audio": "clips/es.mp3"
+    },
+    {
+     "id": "c",
+     "text": "tu",
+     "audio": "clips/tu.mp3"
+    }
+   ],
+   "answer": [
+    "c",
+    "b",
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1816.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0006",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *desidero* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I desire / I want",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "I sleep",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "I carry",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "I am",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1953.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0007",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In the story, *jupiter se in taurum transformat* — Jupiter turns himself into a …",
+   "options": [
+    {
+     "id": "a",
+     "text": "bull (taurum)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "girl",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "god",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "forest",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2053.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Compare **in silva ambulo** ('I walk *in* the forest') with **in silvam ambulo** ('I walk *into* the forest'). Which ending signals **motion INTO**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "-am (silvam)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-a (silva)",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_acc_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2293.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "So *in silva* (with *silva*, the ablative) means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "in the forest (a location)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "into the forest (movement)",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "out of the forest",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the forest's",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2242.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0003",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the forms of **'to walk'** (ambulare).",
+   "options": [
+    {
+     "id": "a",
+     "text": "ambulo",
+     "audio": "clips/ambulo.mp3"
+    },
+    {
+     "id": "b",
+     "text": "ambulas",
+     "audio": "clips/ambulas.mp3"
+    },
+    {
+     "id": "c",
+     "text": "ambulat",
+     "audio": "clips/ambulat.mp3"
+    },
+    {
+     "id": "d",
+     "text": "dormit",
+     "audio": "clips/dormit.mp3"
+    },
+    {
+     "id": "e",
+     "text": "bibit",
+     "audio": "clips/bibit.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2273.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0004",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "Type the Latin for **'I walk'**:",
+   "options": [],
+   "answer": [
+    "ambulo"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2273.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In *ad silvam ambulas*, the preposition **ad** + accusative means movement …",
+   "options": [
+    {
+     "id": "a",
+     "text": "towards / to",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "away from",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "inside",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "under",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2371.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0006",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The farmer carries water.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "agricola",
+     "audio": "clips/agricola.mp3"
+    },
+    {
+     "id": "b",
+     "text": "aquam",
+     "audio": "clips/aquam.mp3"
+    },
+    {
+     "id": "c",
+     "text": "portat",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2417.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*agricola laborat* = 'the farmer works'. Now both words go plural: **agricolae laborant**. What does it mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the farmers work",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the farmer works",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "you work",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to work",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2615.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which verb ending means **'they'** (more than one person)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "-t",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-nt",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "-mus",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "-s",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2615.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which verb ending means **'we'**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "-o",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "-mus",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "-nt",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "-s",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2969.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0004",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the **'they …'** (plural) verbs.",
+   "options": [
+    {
+     "id": "a",
+     "text": "laborant",
+     "audio": "clips/laborant.mp3"
+    },
+    {
+     "id": "b",
+     "text": "ambulant",
+     "audio": "clips/ambulant.mp3"
+    },
+    {
+     "id": "c",
+     "text": "dormit",
+     "audio": "clips/dormit.mp3"
+    },
+    {
+     "id": "d",
+     "text": "legunt",
+     "audio": "clips/legunt.mp3"
+    },
+    {
+     "id": "e",
+     "text": "scribit",
+     "audio": "clips/scribit.mp3"
+    },
+    {
+     "id": "f",
+     "text": "bibunt",
+     "audio": "clips/bibunt.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "d",
+    "f"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2885.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Listen to all three. Which clip means **'they walk'**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "ambulat",
+     "audio": "clips/ambulat.mp3"
+    },
+    {
+     "id": "b",
+     "text": "ambulamus",
+     "audio": "clips/ambulamus.mp3"
+    },
+    {
+     "id": "c",
+     "text": "ambulant",
+     "audio": "clips/ambulant.mp3"
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2820.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0006",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *ambulamus* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I walk",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you walk",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "we walk",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "they walk",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [
+    "present_tense"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2969.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0007",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*amicus* = 'a friend'. The plural *amici* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "friends",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "a friend's",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "to a friend",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "a friend",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2860.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0008",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The farmers walk.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "agricolae",
+     "audio": "clips/agricolae.mp3"
+    },
+    {
+     "id": "b",
+     "text": "ambulant",
+     "audio": "clips/ambulant.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2615.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0009",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The gods live on Olympus.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "dei",
+     "audio": "clips/dei.mp3"
+    },
+    {
+     "id": "b",
+     "text": "habitant",
+     "audio": "clips/habitant.mp3"
+    },
+    {
+     "id": "c",
+     "text": "in",
+     "audio": "clips/in.mp3"
+    },
+    {
+     "id": "d",
+     "text": "olympo",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a",
+    "c",
+    "d",
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2758.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0010",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In English: *'She gives the student a sword.'* The sword is the object. Who is the **indirect object** — the one *receiving*?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the student",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "a sword",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "she",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "sentence_roles"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3330.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0011",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Latin: *discipul**o** gladium dat* = 'she gives a sword **to the student**'. The ending on *discipulo* shows it means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "to / for the student (the receiver)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the student does it",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the student's",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "two students",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_dat_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3330.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0012",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"You give a tunic to the teacher.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "das",
+     "audio": "clips/das.mp3"
+    },
+    {
+     "id": "b",
+     "text": "magistro",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "tunicam",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "a"
+   ],
+   "concepts": [
+    "noun_dat_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3361.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0013",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Listen to all three forms of 'give'. Which one means **'you give'**?",
+   "options": [
+    {
+     "id": "a",
+     "text": "da",
+     "audio": "clips/da.mp3"
+    },
+    {
+     "id": "b",
+     "text": "das",
+     "audio": "clips/das.mp3"
+    },
+    {
+     "id": "c",
+     "text": "dat",
+     "audio": "clips/dat.mp3"
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3361.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *felis* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the cat",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the mouse",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the dog",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the bird",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4018.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*felis* = 'the cat' (subject); as an object it becomes *felem*. *mus* = 'the mouse' (subject); as the **object** it becomes …",
+   "options": [
+    {
+     "id": "a",
+     "text": "murem",
+     "audio": "clips/murem.mp3"
+    },
+    {
+     "id": "b",
+     "text": "muris",
+     "audio": "clips/muris.mp3"
+    },
+    {
+     "id": "c",
+     "text": "mus",
+     "audio": "clips/mus.mp3"
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4059.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*felis murem edit.* (*felis* = subject, *murem* = object.) Who eats whom?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the cat eats the mouse",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the mouse eats the cat",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4059.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0004",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*mus felem spectat.* (*mus* = subject, *felem* = object.) Who looks at whom?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the mouse looks at the cat",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the cat looks at the mouse",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4111.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0005",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"The cat eats the mouse.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "edit",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "felis",
+     "audio": "clips/felis.mp3"
+    },
+    {
+     "id": "c",
+     "text": "murem",
+     "audio": "clips/murem.mp3"
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4059.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0006",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*dominus mihi cibum dat* = 'the master gives food ___ '. What does *mihi* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "to me",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "I",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "my",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "me (as object)",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [
+    "noun_dat_sg"
+   ],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4230.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0007",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Listen to all three. Which form is **'food' as the object** (the thing being eaten)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "cibus",
+     "audio": "clips/cibus.mp3"
+    },
+    {
+     "id": "b",
+     "text": "cibum",
+     "audio": "clips/cibum.mp3"
+    },
+    {
+     "id": "c",
+     "text": "cibi",
+     "audio": "clips/cibi.mp3"
+    }
+   ],
+   "answer": [
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4160.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *amat* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I love",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "you love",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "loves",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "they love",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4413.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0009",
+   "type": "free_text",
+   "answer_type": "normalized_string",
+   "prompt": "Type the Latin for **'I love'**:",
+   "options": [],
+   "answer": [
+    "amo"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4396.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0010",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*feles mures edunt* — all the words are plural. What does it mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "cats eat mice",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "a cat eats a mouse",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "mice eat cats",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the cat eats the mouse",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4601.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0001",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*pater noster* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "our Father",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "holy Father",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "my father",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the priest",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4690.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0002",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *caelum* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "heaven / sky",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "earth",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "kingdom",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "bread",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4730.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0003",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*da nobis hodie* = 'give us today…'. The word *da* is a **command**. It means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "give!",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "he gives",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "I give",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to give",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4920.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0004",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*dimitte nobis debita* — *dimitte* is also a command, meaning …",
+   "options": [
+    {
+     "id": "a",
+     "text": "forgive / let go!",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "he forgives",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "I forgive",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to forgive",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4986.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0005",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Which of these is a **command** (telling someone to do it), not a statement?",
+   "options": [
+    {
+     "id": "a",
+     "text": "da (give!)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "dat (he gives)",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "do (I give)",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4920.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0006",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*adveniat regnum tuum* = 'may your kingdom come'. The word *adveniat* expresses a …",
+   "options": [
+    {
+     "id": "a",
+     "text": "wish ('may it…')",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "fact ('it does')",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "command",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "question",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4823.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0007",
+   "type": "ordered_tokens",
+   "answer_type": "ordered_tokens",
+   "prompt": "Arrange these words to say: \"Our Father in the heavens.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "caelis",
+     "audio": "clips/caelis.mp3"
+    },
+    {
+     "id": "b",
+     "text": "in",
+     "audio": "clips/in.mp3"
+    },
+    {
+     "id": "c",
+     "text": "noster",
+     "audio": "clips/noster.mp3"
+    },
+    {
+     "id": "d",
+     "text": "pater",
+     "audio": "clips/pater.mp3"
+    }
+   ],
+   "answer": [
+    "d",
+    "c",
+    "b",
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4690.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*sanctificetur nomen tuum* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "hallowed be your name",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "your name is holy",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "I bless your name",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "what is your name?",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4742.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0009",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In *panem nostrum quotidianum*, the word *quotidianum* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "daily",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "our",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "bread",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "holy",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4919.4,
+    "curated": true
+   }
+  }
+ ]
+}

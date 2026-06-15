@@ -16,6 +16,8 @@
 
   h1 { font-size:22px; margin:6px 0 2px; }
   .sub { color:var(--muted); font-size:14px; margin-bottom:18px; }
+  .navhint { color:var(--muted); font-size:13px; margin-top:14px; text-align:center; }
+  .navhint b { color:var(--fg); font-weight:600; }
 
   /* home */
   .lesson { display:block; width:100%; text-align:left; background:var(--panel);
@@ -138,6 +140,10 @@ const foot = document.getElementById('foot')
 
 let BANK = null, CP = [], CLIPS = new Set()
 let queue = [], pos = 0, score = 0, missed = [], picked = null, pickedSet = new Set(), ordered = []
+// keyboard nav on the answered/feedback state: answered gates forward (Enter/→), goNext is the
+// advance action, inQuestion gates the listener off on menus/results, scored locks each position's
+// score so navigating back and re-answering can't inflate it.
+let answered = false, goNext = null, inQuestion = false, scored = new Set()
 
 function clipKey(w){ return (w||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'') }
 function playWord(w){ new Audio(API.audio(`clips/${w}.mp3`)).play() }
@@ -229,6 +235,7 @@ async function start(){
 function countFor(id){ return BANK.questions.filter(q => q.checkpoint_id===id).length }
 
 function home(){
+  inQuestion = false
   foot.innerHTML = ''
   app.innerHTML = ''
   app.appendChild($(`<h1>🏛️ Latin Quiz</h1>`))
@@ -287,6 +294,7 @@ function openVocab(cp){
 
 /* ---- vocabulary tester: direction chooser -> synthetic free-text queue ---- */
 function startVocab(cp){
+  inQuestion = false
   foot.innerHTML = ''
   app.innerHTML = ''
   app.appendChild($(`<h1>📝 ${cp.label}</h1>`))
@@ -323,7 +331,7 @@ function beginVocab(cp, dir){
 }
 
 function begin(qs, title){
-  queue = qs; pos = 0; score = 0; missed = []; window._title = title
+  queue = qs; pos = 0; score = 0; missed = []; scored = new Set(); window._title = title
   render()
 }
 
@@ -337,6 +345,7 @@ function setFoot(label, fn, {disabled=false, ghost=false}={}){
 
 function render(){
   if (pos >= queue.length) return results()
+  inQuestion = true; answered = false; goNext = null
   const q = queue[pos]
   picked = null; pickedSet = new Set(); ordered = []
   app.innerHTML = ''
@@ -473,17 +482,25 @@ function gradeVocab(q, body){
 
 /* ---- shared finish + results ---- */
 function finish(q, ok, solution, body){
-  if (ok) score++
-  else missed.push({prompt:q.prompt, sol:solution})
+  if (!scored.has(pos)){           // count each position once, even if revisited via ← / →
+    scored.add(pos)
+    if (ok) score++
+    else missed.push({prompt:q.prompt, sol:solution})
+  }
+  answered = true
   const fb = $(`<div class="feedback ${ok?'ok':'no'}">
       ${ok ? '✓ Correct!' : '✗ Not quite — the answer is:'}
       ${ok ? '' : `<div class="sol">${fmt(solution)}</div>`}</div>`)
   body.appendChild(fb); linkLatin(fb)
   const last = pos === queue.length-1
-  setFoot(last ? 'See results →' : 'Next →', () => { pos++; render() })
+  goNext = () => { pos++; render() }
+  const hint = $(`<div class="navhint">press <b>Enter</b> or <b>→</b> for next${pos>0?' · <b>←</b> back':''}</div>`)
+  body.appendChild(hint)
+  setFoot(last ? 'See results →' : 'Next →', goNext)
 }
 
 function results(){
+  inQuestion = false
   foot.innerHTML = ''
   const pct = queue.length ? Math.round(score/queue.length*100) : 0
   const msg = pct>=90?'Brilliant! 🏆':pct>=70?'Great work! 🌟':pct>=50?'Good effort! 👍':'Keep practising! 💪'
@@ -513,6 +530,21 @@ function results(){
   stack.appendChild(again); stack.appendChild(back)
   app.appendChild(stack)
 }
+
+// Keyboard navigation while a question is on screen. We ignore keys while a text field has
+// focus (so typing / cursor movement is untouched); once an answer is graded the input is
+// disabled and focus returns to <body>, so these take over.
+document.addEventListener('keydown', e => {
+  if (!inQuestion) return
+  const inField = e.target && e.target.tagName === 'INPUT'
+  if (e.key === 'ArrowLeft'){
+    if (inField || pos === 0) return
+    e.preventDefault(); pos--; render()
+  } else if (e.key === 'Enter' || e.key === 'ArrowRight'){
+    if (inField || !answered || !goNext) return
+    e.preventDefault(); goNext()
+  }
+})
 
 start()
 </script>

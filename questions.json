@@ -15,8 +15,14 @@
    "vocab": [
     {
      "word": "discipula",
-     "gloss": "the student",
-     "audio": true
+     "gloss": "the (female) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "schoolgirl",
+      "pupil"
+     ]
     },
     {
      "word": "discis",
@@ -167,13 +173,24 @@
     },
     {
      "word": "discipula",
-     "gloss": "the student",
-     "audio": true
+     "gloss": "the (female) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "schoolgirl",
+      "pupil"
+     ]
     },
     {
      "word": "discipulam",
-     "gloss": "the student (object)",
-     "audio": true
+     "gloss": "the (female) student (object)",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "pupil"
+     ]
     },
     {
      "word": "docet",
@@ -254,8 +271,13 @@
     },
     {
      "word": "discipulam",
-     "gloss": "the student (object)",
-     "audio": true
+     "gloss": "the (female) student (object)",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "pupil"
+     ]
     },
     {
      "word": "discit",
@@ -280,6 +302,11 @@
     {
      "word": "lego",
      "gloss": "I read",
+     "audio": true
+    },
+    {
+     "word": "longam",
+     "gloss": "long",
      "audio": true
     },
     {
@@ -308,6 +335,11 @@
      "audio": true
     },
     {
+     "word": "non",
+     "gloss": "not",
+     "audio": true
+    },
+    {
      "word": "poeta",
      "gloss": "the poet (subj.)",
      "audio": true
@@ -316,6 +348,11 @@
      "word": "poetae",
      "gloss": "the poet's",
      "audio": true
+    },
+    {
+     "word": "pulcher",
+     "gloss": "beautiful",
+     "audio": false
     },
     {
      "word": "sed",
@@ -341,42 +378,93 @@
     },
     {
      "word": "amica",
-     "gloss": "female friend",
-     "audio": true
+     "gloss": "a (female) friend / girlfriend",
+     "audio": true,
+     "accept_en": [
+      "friend",
+      "girlfriend",
+      "female friend"
+     ]
     },
     {
      "word": "amicam",
-     "gloss": "a female friend (object)",
-     "audio": true
+     "gloss": "a (female) friend (object)",
+     "audio": true,
+     "accept_en": [
+      "friend",
+      "girlfriend",
+      "female friend"
+     ]
     },
     {
      "word": "amicus",
-     "gloss": "friend",
+     "gloss": "a (male) friend",
+     "audio": true,
+     "accept_en": [
+      "friend",
+      "male friend"
+     ]
+    },
+    {
+     "word": "bene",
+     "gloss": "well",
      "audio": true
     },
     {
      "word": "discipula",
-     "gloss": "the student",
-     "audio": true
+     "gloss": "the (female) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "schoolgirl",
+      "pupil"
+     ]
     },
     {
      "word": "discipulae",
-     "gloss": "the student's",
-     "audio": true
+     "gloss": "the (female) student's",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "students",
+      "pupil"
+     ]
     },
     {
      "word": "discipulam",
-     "gloss": "the student (object)",
-     "audio": true
+     "gloss": "the (female) student (object)",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "pupil"
+     ]
     },
     {
      "word": "discipuli",
-     "gloss": "the male student's",
-     "audio": true
+     "gloss": "the (male) student's / the students",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "students",
+      "pupil"
+     ]
     },
     {
      "word": "discipulus",
-     "gloss": "the male student",
+     "gloss": "the (male) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "male student",
+      "schoolboy",
+      "pupil"
+     ]
+    },
+    {
+     "word": "discit",
+     "gloss": "learns",
      "audio": true
     },
     {
@@ -405,6 +493,11 @@
      "audio": true
     },
     {
+     "word": "quod",
+     "gloss": "because",
+     "audio": true
+    },
+    {
      "word": "scribere",
      "gloss": "to write",
      "audio": true
@@ -428,38 +521,73 @@
    "vocab": [
     {
      "word": "amicum",
-     "gloss": "a friend",
-     "audio": true
+     "gloss": "a (male) friend (object)",
+     "audio": true,
+     "accept_en": [
+      "friend",
+      "male friend"
+     ]
     },
     {
      "word": "amicus",
-     "gloss": "friend",
-     "audio": true
+     "gloss": "a (male) friend",
+     "audio": true,
+     "accept_en": [
+      "friend",
+      "male friend"
+     ]
     },
     {
      "word": "discipula",
-     "gloss": "the student",
-     "audio": true
+     "gloss": "the (female) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "schoolgirl",
+      "pupil"
+     ]
     },
     {
      "word": "discipulam",
-     "gloss": "the student (object)",
-     "audio": true
+     "gloss": "the (female) student (object)",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "pupil"
+     ]
     },
     {
      "word": "discipuli",
-     "gloss": "the male student's",
-     "audio": true
+     "gloss": "the (male) student's / the students",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "students",
+      "pupil"
+     ]
     },
     {
      "word": "discipulum",
-     "gloss": "the male student (object)",
-     "audio": true
+     "gloss": "the (male) student (object)",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "male student",
+      "pupil"
+     ]
     },
     {
      "word": "discipulus",
-     "gloss": "the male student",
-     "audio": true
+     "gloss": "the (male) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "male student",
+      "schoolboy",
+      "pupil"
+     ]
     },
     {
      "word": "gladium",
@@ -510,8 +638,14 @@
     },
     {
      "word": "discipula",
-     "gloss": "the student",
-     "audio": true
+     "gloss": "the (female) student",
+     "audio": true,
+     "accept_en": [
+      "student",
+      "female student",
+      "schoolgirl",
+      "pupil"
+     ]
     },
     {
      "word": "es",
@@ -524,6 +658,11 @@
      "audio": true
     },
     {
+     "word": "europa",
+     "gloss": "Europa",
+     "audio": false
+    },
+    {
      "word": "in",
      "gloss": "in",
      "audio": true
@@ -534,9 +673,19 @@
      "audio": false
     },
     {
+     "word": "meus",
+     "gloss": "my",
+     "audio": false
+    },
+    {
      "word": "poeta",
      "gloss": "the poet (subj.)",
      "audio": true
+    },
+    {
+     "word": "puella",
+     "gloss": "the girl",
+     "audio": false
     },
     {
      "word": "se",
@@ -551,6 +700,16 @@
     {
      "word": "taurum",
      "gloss": "a bull",
+     "audio": false
+    },
+    {
+     "word": "terra",
+     "gloss": "earth",
+     "audio": false
+    },
+    {
+     "word": "timida",
+     "gloss": "timid",
      "audio": false
     },
     {
@@ -616,6 +775,11 @@
      "audio": true
     },
     {
+     "word": "dea",
+     "gloss": "goddess",
+     "audio": true
+    },
+    {
      "word": "dormit",
      "gloss": "sleeps",
      "audio": true
@@ -639,6 +803,19 @@
      "word": "silvam",
      "gloss": "the forest",
      "audio": false
+    },
+    {
+     "word": "veritas",
+     "gloss": "truth",
+     "audio": false
+    },
+    {
+     "word": "vinum",
+     "gloss": "wine",
+     "audio": false,
+     "accept_en": [
+      "wine"
+     ]
     }
    ]
   },
@@ -679,17 +856,44 @@
     },
     {
      "word": "amici",
-     "gloss": "friends",
-     "audio": true
+     "gloss": "friends / a friend's",
+     "audio": true,
+     "accept_en": [
+      "friends",
+      "friend"
+     ]
     },
     {
      "word": "amicus",
-     "gloss": "friend",
-     "audio": true
+     "gloss": "a (male) friend",
+     "audio": true,
+     "accept_en": [
+      "friend",
+      "male friend"
+     ]
+    },
+    {
+     "word": "arma",
+     "gloss": "arms / weapons",
+     "audio": true,
+     "accept_en": [
+      "arms",
+      "weapons"
+     ]
     },
     {
      "word": "bibunt",
      "gloss": "they drink",
+     "audio": true
+    },
+    {
+     "word": "clara",
+     "gloss": "clear",
+     "audio": false
+    },
+    {
+     "word": "cretam",
+     "gloss": "Crete",
      "audio": true
     },
     {
@@ -713,14 +917,49 @@
      "audio": true
     },
     {
+     "word": "dicit",
+     "gloss": "says",
+     "audio": true
+    },
+    {
+     "word": "directa",
+     "gloss": "direct, straight",
+     "audio": false
+    },
+    {
      "word": "discipulo",
      "gloss": "to the male student",
      "audio": false
     },
     {
+     "word": "discunt",
+     "gloss": "they learn",
+     "audio": true
+    },
+    {
      "word": "dormit",
      "gloss": "sleeps",
      "audio": true
+    },
+    {
+     "word": "dracones",
+     "gloss": "dragons",
+     "audio": true
+    },
+    {
+     "word": "ducit",
+     "gloss": "leads",
+     "audio": false
+    },
+    {
+     "word": "facit",
+     "gloss": "does / makes",
+     "audio": false
+    },
+    {
+     "word": "fugitat",
+     "gloss": "flees",
+     "audio": false
     },
     {
      "word": "gladium",
@@ -733,9 +972,34 @@
      "audio": true
     },
     {
+     "word": "hic",
+     "gloss": "here",
+     "audio": false
+    },
+    {
      "word": "in",
      "gloss": "in",
      "audio": true
+    },
+    {
+     "word": "insula",
+     "gloss": "island",
+     "audio": false
+    },
+    {
+     "word": "ita",
+     "gloss": "yes / so",
+     "audio": false
+    },
+    {
+     "word": "iupiter",
+     "gloss": "Jupiter",
+     "audio": false
+    },
+    {
+     "word": "jupiter",
+     "gloss": "Jupiter",
+     "audio": false
     },
     {
      "word": "laborant",
@@ -753,8 +1017,28 @@
      "audio": true
     },
     {
+     "word": "longa",
+     "gloss": "long",
+     "audio": false
+    },
+    {
+     "word": "longae",
+     "gloss": "long",
+     "audio": false
+    },
+    {
      "word": "magistro",
      "gloss": "to the male teacher",
+     "audio": false
+    },
+    {
+     "word": "nonne",
+     "gloss": "surely / isn't it",
+     "audio": false
+    },
+    {
+     "word": "nunc",
+     "gloss": "now",
      "audio": false
     },
     {
@@ -763,13 +1047,78 @@
      "audio": false
     },
     {
+     "word": "omnipotens",
+     "gloss": "all-powerful",
+     "audio": false
+    },
+    {
+     "word": "omnis",
+     "gloss": "all (singular)",
+     "audio": false
+    },
+    {
+     "word": "omnivorus",
+     "gloss": "all-eating / omnivorous",
+     "audio": false
+    },
+    {
+     "word": "optimus",
+     "gloss": "best",
+     "audio": false
+    },
+    {
+     "word": "possum",
+     "gloss": "I can",
+     "audio": false
+    },
+    {
+     "word": "quid",
+     "gloss": "what",
+     "audio": false
+    },
+    {
+     "word": "roma",
+     "gloss": "Rome",
+     "audio": false
+    },
+    {
+     "word": "romanae",
+     "gloss": "Roman",
+     "audio": false
+    },
+    {
+     "word": "schola",
+     "gloss": "school",
+     "audio": false
+    },
+    {
      "word": "scribit",
      "gloss": "writes",
      "audio": true
     },
     {
+     "word": "splendida",
+     "gloss": "splendid",
+     "audio": false
+    },
+    {
      "word": "tunicam",
      "gloss": "a tunic",
+     "audio": false
+    },
+    {
+     "word": "ubi",
+     "gloss": "where",
+     "audio": false
+    },
+    {
+     "word": "via",
+     "gloss": "road",
+     "audio": false
+    },
+    {
+     "word": "volo",
+     "gloss": "I want",
      "audio": false
     }
    ]
@@ -790,6 +1139,16 @@
      "audio": true
     },
     {
+     "word": "bibere",
+     "gloss": "to drink",
+     "audio": false
+    },
+    {
+     "word": "celer",
+     "gloss": "swift",
+     "audio": false
+    },
+    {
      "word": "cibi",
      "gloss": "of the food / food's",
      "audio": true
@@ -805,9 +1164,24 @@
      "audio": true
     },
     {
+     "word": "clamat",
+     "gloss": "exclaims",
+     "audio": true
+    },
+    {
+     "word": "consequitur",
+     "gloss": "chases / follows",
+     "audio": true
+    },
+    {
      "word": "dat",
      "gloss": "gives",
      "audio": true
+    },
+    {
+     "word": "deinde",
+     "gloss": "then / after that",
+     "audio": false
     },
     {
      "word": "dominus",
@@ -840,8 +1214,38 @@
      "audio": true
     },
     {
+     "word": "fugere",
+     "gloss": "to flee",
+     "audio": false
+    },
+    {
+     "word": "in",
+     "gloss": "in",
+     "audio": true
+    },
+    {
+     "word": "latinam",
+     "gloss": "Latin",
+     "audio": false
+    },
+    {
+     "word": "laudat",
+     "gloss": "praises",
+     "audio": false
+    },
+    {
+     "word": "linguam",
+     "gloss": "the language",
+     "audio": false
+    },
+    {
      "word": "mihi",
      "gloss": "to me",
+     "audio": false
+    },
+    {
+     "word": "miles",
+     "gloss": "the soldier",
      "audio": false
     },
     {
@@ -863,6 +1267,35 @@
      "word": "mus",
      "gloss": "the mouse",
      "audio": true
+    },
+    {
+     "word": "ne",
+     "gloss": "question particle",
+     "audio": false
+    },
+    {
+     "word": "noli",
+     "gloss": "do not",
+     "audio": false
+    },
+    {
+     "word": "raro",
+     "gloss": "rarely",
+     "audio": false
+    },
+    {
+     "word": "rogat",
+     "gloss": "asks",
+     "audio": false
+    },
+    {
+     "word": "servus",
+     "gloss": "the slave / servant",
+     "audio": false,
+     "accept_en": [
+      "slave",
+      "servant"
+     ]
     },
     {
      "word": "spectat",
@@ -892,6 +1325,11 @@
      "audio": true
     },
     {
+     "word": "caelo",
+     "gloss": "heaven",
+     "audio": false
+    },
+    {
      "word": "caelum",
      "gloss": "heaven / sky",
      "audio": true
@@ -907,9 +1345,29 @@
      "audio": false
     },
     {
+     "word": "debitor",
+     "gloss": "debtor",
+     "audio": false
+    },
+    {
      "word": "dimitte",
      "gloss": "dismiss",
      "audio": true
+    },
+    {
+     "word": "et",
+     "gloss": "and",
+     "audio": true
+    },
+    {
+     "word": "fiat",
+     "gloss": "may it be done",
+     "audio": false
+    },
+    {
+     "word": "hoc",
+     "gloss": "this",
+     "audio": false
     },
     {
      "word": "hodie",
@@ -922,6 +1380,26 @@
      "audio": true
     },
     {
+     "word": "inducas",
+     "gloss": "you may lead",
+     "audio": false
+    },
+    {
+     "word": "libera",
+     "gloss": "free / liberate",
+     "audio": false
+    },
+    {
+     "word": "malo",
+     "gloss": "evil",
+     "audio": false
+    },
+    {
+     "word": "ne",
+     "gloss": "question particle",
+     "audio": false
+    },
+    {
      "word": "nobis",
      "gloss": "to us",
      "audio": true
@@ -932,9 +1410,19 @@
      "audio": true
     },
     {
+     "word": "nos",
+     "gloss": "we",
+     "audio": false
+    },
+    {
      "word": "noster",
      "gloss": "our",
      "audio": true
+    },
+    {
+     "word": "nostra",
+     "gloss": "our",
+     "audio": false
     },
     {
      "word": "nostrum",
@@ -967,8 +1455,33 @@
      "audio": false
     },
     {
+     "word": "sicut",
+     "gloss": "just as / like",
+     "audio": false
+    },
+    {
+     "word": "tentationem",
+     "gloss": "temptation",
+     "audio": false
+    },
+    {
+     "word": "terra",
+     "gloss": "earth",
+     "audio": false
+    },
+    {
+     "word": "tua",
+     "gloss": "your",
+     "audio": false
+    },
+    {
      "word": "tuum",
      "gloss": "your",
+     "audio": false
+    },
+    {
+     "word": "voluntas",
+     "gloss": "will",
      "audio": false
     }
    ]
@@ -5129,6 +5642,1963 @@
    "provenance": {
     "video_id": "latin-quiz",
     "first_taught_t": 4919.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0012",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "The adjective *longam* (a form of *longus*) means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "long",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "short",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "beautiful",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "big",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1156.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0013",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *pulcher* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "beautiful",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "ugly",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "small",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "strong",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1239.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_03_c_0014",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *non* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "not",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "now",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "no one",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "never",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_03",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1252.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*magistra docet, quod discipula discit.* The word *quod* here means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "because",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "who",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "and",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "but",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1306.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_04_c_0009",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *bene* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "well",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "good (a good thing)",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "badly",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "again",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_04",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1323.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *meus* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "my",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "your",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "his",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "our",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1715.5,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0009",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *puella* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the girl",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the boy",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the woman",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the queen",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 1968.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0010",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *terra* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "earth / land",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "sky",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "sea",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "fire",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2040.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0011",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In the story, *Europa* is the name of a …",
+   "options": [
+    {
+     "id": "a",
+     "text": "princess (a girl)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "goddess",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "city",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "river",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2043.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_06_c_0012",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *timida* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "timid / shy",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "tired",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "happy",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "tall",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_06",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2056.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0007",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *vinum* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "wine",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "water",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "bread",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "milk",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2178.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0008",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *veritas* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "truth",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "victory",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "virtue",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "winter",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2179.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_07_c_0009",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *dea* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "goddess",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "god",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "day",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "queen",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_07",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2364.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0014",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the words below that name a **place**.",
+   "options": [
+    {
+     "id": "a",
+     "text": "schola",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "insula",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "via",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "roma",
+     "audio": null
+    },
+    {
+     "id": "e",
+     "text": "arma",
+     "audio": "clips/arma.mp3"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3548.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0015",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In the story the god *Iupiter* (Jupiter) rules from Olympus. *Iupiter* is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "the king of the gods",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "a Roman soldier",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "a mountain",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "a river",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2735.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0016",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*Cretam* names an island in the sea. *Creta* is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "Crete",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "Rome",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "Greece",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "Egypt",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2753.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0017",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *dracones* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "dragons",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "horses",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "soldiers",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "ships",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3521.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0018",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the words that mean **all / every / all-…**.",
+   "options": [
+    {
+     "id": "a",
+     "text": "omnis",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "omnipotens",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "omnivorus",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "longa",
+     "audio": null
+    },
+    {
+     "id": "e",
+     "text": "clara",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3543.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0019",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL these adjectives that describe something **in a good / positive** way.",
+   "options": [
+    {
+     "id": "a",
+     "text": "optimus",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "splendida",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "directa",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "romanae",
+     "audio": null
+    },
+    {
+     "id": "e",
+     "text": "longae",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3548.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0020",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the words below that are **verbs** (action words).",
+   "options": [
+    {
+     "id": "a",
+     "text": "ducit",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "dicit",
+     "audio": "clips/dicit.mp3"
+    },
+    {
+     "id": "c",
+     "text": "possum",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "fugitat",
+     "audio": null
+    },
+    {
+     "id": "e",
+     "text": "romanae",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3923.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0021",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *discunt* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "they learn",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "they teach",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "they read",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "they sleep",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2934.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0022",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *volo* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "I want",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "I can",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "I carry",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "I go",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3471.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0023",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *facit* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "he/she does / makes",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "he/she says",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "he/she leads",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "he/she flees",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3620.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0024",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *nunc* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "now",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "then",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "here",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "never",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 2731.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0025",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "As an adverb, *hic* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "here",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "this",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "now",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "yes",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3499.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0026",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *ubi* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "where",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "when",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "who",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "why",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3761.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0027",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *ita* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "yes / so",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "not",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "and",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "but",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3911.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0028",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*nonne* begins a question that expects the answer **yes** (*nonne venis?* 'you are coming, aren't you?'). *nonne* roughly signals …",
+   "options": [
+    {
+     "id": "a",
+     "text": "surely…? (expecting yes)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "a command",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the past tense",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "a plural",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3873.4,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_08_c_0029",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *quid* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "what",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "who",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "where",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "why",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_08",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3619.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0011",
+   "type": "multi",
+   "answer_type": "multi",
+   "prompt": "Select ALL the words below that are **verbs** (action words).",
+   "options": [
+    {
+     "id": "a",
+     "text": "laudat",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "clamat",
+     "audio": "clips/clamat.mp3"
+    },
+    {
+     "id": "c",
+     "text": "rogat",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "consequitur",
+     "audio": "clips/consequitur.mp3"
+    },
+    {
+     "id": "e",
+     "text": "celer",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4612.0,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0012",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *fugere* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "to flee",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "to chase",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "to drink",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to praise",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4114.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0013",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *bibere* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "to drink",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "to eat",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "to run",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "to ask",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4503.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0014",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*noli currere!* The word *noli* turns it into 'do **not** run!'. *noli* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "do not …!",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "please …",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "always …",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "let us …",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4502.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0015",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *miles* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the soldier",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the slave",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the king",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the master",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 3943.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0016",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *servus* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the slave / servant",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "the soldier",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "the master",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the friend",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4267.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0017",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*linguam latinam* means 'the Latin language'. What does *linguam* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "language / tongue",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "letter",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "lesson",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "word",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4395.1,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0018",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In *linguam latinam* ('the Latin language'), what does *latinam* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Latin",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "long",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "loud",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "lovely",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4395.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0019",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *deinde* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "then / after that",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "now",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "rarely",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "again",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4085.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0020",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "What does *raro* mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "rarely",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "quickly",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "loudly",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "always",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4341.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_09_c_0021",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Latin can turn a statement into a question by tacking *-ne* onto the first word (*amasne?* 'do you love?'). That little particle *ne* marks a …",
+   "options": [
+    {
+     "id": "a",
+     "text": "question",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "command",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "negative",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "plural",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_09",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4442.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0010",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*fiat voluntas tua* = 'thy **will** be done'. *voluntas* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "will",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "way",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "kingdom",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "name",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4856.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0011",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*sicut in caelo et in terra* = '… in heaven, **so** on earth'. *sicut* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "just as / so",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "because",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "but",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "until",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4907.9,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0012",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "As a word for 'this', *hoc* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "this",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "here",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "that",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 4981.6,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0013",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*dimitte nobis debita nostra* ('forgive us our debts'). A *debitor* is someone who …",
+   "options": [
+    {
+     "id": "a",
+     "text": "owes a debt (a debtor)",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "forgives a debt",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "lends money",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "is a judge",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 5019.7,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0014",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*ne nos inducas in tentationem* = 'lead us **not** into temptation'. *inducas* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "(may you) lead",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "(may you) free",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "(may you) forgive",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "(may you) give",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 5055.3,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0015",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "In *ne nos inducas in tentationem*, the word *tentationem* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "temptation",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "kingdom",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "evil",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "debt",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 5055.8,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0016",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "*libera nos a malo* = '**deliver / free** us from evil'. *libera* means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "free / deliver",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "lead",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "forgive",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "give",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 5094.2,
+    "curated": true
+   }
+  },
+  {
+   "id": "cp_10_c_0017",
+   "type": "single",
+   "answer_type": "single",
+   "prompt": "Still *libera nos a malo* — *malo* (from *malum*) means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "evil",
+     "audio": null
+    },
+    {
+     "id": "b",
+     "text": "harm's sake",
+     "audio": null
+    },
+    {
+     "id": "c",
+     "text": "temptation",
+     "audio": null
+    },
+    {
+     "id": "d",
+     "text": "the enemy",
+     "audio": null
+    }
+   ],
+   "answer": [
+    "a"
+   ],
+   "concepts": [],
+   "feature_filter": null,
+   "generated": false,
+   "checkpoint_id": "cp_10",
+   "provenance": {
+    "video_id": "latin-quiz",
+    "first_taught_t": 5094.9,
     "curated": true
    }
   }

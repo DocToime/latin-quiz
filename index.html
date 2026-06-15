@@ -175,6 +175,43 @@ function norm(s){
   return (s||'').toLowerCase().trim().normalize('NFD')
     .replace(/[\u0300-\u036f]/g,'').replace(/^[\-\s]+/,'').replace(/\s+/g,' ')
 }
+function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]] } return a }
+
+/* ---- vocabulary-tester grading (pure functions) ----
+   normEn reduces an English gloss/answer to a comparable base: drop diacritics,
+   parentheticals ("(object)"), possessive 's, punctuation, and a leading
+   article / "of (the)" / "to" / "i" / "may" / "let" so inflection-described glosses
+   ("the male student (object)", "of the food / food's") still match the base word.   */
+function normEn(s){
+  let x = (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  x = x.replace(/\([^)]*\)/g,' ').replace(/['\u2019]s\b/g,'')
+  x = x.replace(/[^a-z\s]/g,' ').replace(/\s+/g,' ').trim()
+  for (let i=0;i<2;i++) x = x.replace(/^(of the|of|to|the|a|an|i|may|let)\s+/,'').trim()
+  return x
+}
+function glossAlts(g){ return (g||'').split(/[\/,;]| or /i).map(x=>x.trim()).filter(Boolean) }
+function acceptedEn(entry){
+  const base = (entry.accept_en && entry.accept_en.length) ? entry.accept_en : glossAlts(entry.gloss)
+  return base.map(normEn).filter(Boolean)
+}
+function acceptedLa(entry){ return (entry.accept_la && entry.accept_la.length) ? entry.accept_la : [entry.word] }
+// dir: 'la2en' (input is the meaning) | 'en2la' (input is the Latin word)
+function vocabMatch(input, entry, dir){
+  if (dir === 'en2la') return acceptedLa(entry).some(a => norm(a) === norm(input))
+  return acceptedEn(entry).includes(normEn(input))
+}
+if (location.search.includes('selftest')){           // ?selftest in the URL runs the grader checks
+  const T = (got, exp, msg) => console[got===exp?'log':'error'](`${got===exp?'PASS':'FAIL'}: ${msg}`)
+  const e = g => ({word:'x', gloss:g})
+  T(vocabMatch('cat', e('the cat'), 'la2en'), true, "article: 'the cat' ~ cat")
+  T(vocabMatch('food', e("of the food / food's"), 'la2en'), true, "genitive gloss ~ food")
+  T(vocabMatch('sleep', e('to sleep'), 'la2en'), true, "infinitive: 'to sleep' ~ sleep")
+  T(vocabMatch('friend', e('girlfriend / female friend'), 'la2en'), false, "no false-positive: friend != girlfriend")
+  T(vocabMatch('friend', {word:'amica', gloss:'x', accept_en:['friend','girlfriend']}, 'la2en'), true, "curated accept_en")
+  T(vocabMatch('amo', {word:'amo'}, 'en2la'), true, "en2la exact")
+  T(vocabMatch('am\u014d', {word:'amo'}, 'en2la'), true, "en2la macron-insensitive")
+  T(vocabMatch('student', e('the male student (object)'), 'la2en'), false, "parenthetical strip leaves 'male student'")
+}
 function audioBtn(path){
   const b = $(`<button class="play" title="play">▶</button>`)
   b.onclick = e => { e.stopPropagation(); new Audio(API.audio(path)).play() }
@@ -213,6 +250,9 @@ function home(){
       const vl = $(`<span class="vocablink">📖 Vocabulary (${nv})</span>`)
       vl.onclick = e => { e.stopPropagation(); openVocab(cp) }
       el.appendChild(vl)
+      const tl = $(`<span class="vocablink">📝 Test vocab (${nv})</span>`)
+      tl.onclick = e => { e.stopPropagation(); startVocab(cp) }
+      el.appendChild(tl)
     }
     app.appendChild(el)
   }
@@ -245,6 +285,43 @@ function openVocab(cp){
   document.body.appendChild(overlay)
 }
 
+/* ---- vocabulary tester: direction chooser -> synthetic free-text queue ---- */
+function startVocab(cp){
+  foot.innerHTML = ''
+  app.innerHTML = ''
+  app.appendChild($(`<h1>📝 ${cp.label}</h1>`))
+  app.appendChild($(`<div class="sub">Type the answer. Which direction?</div>`))
+  const mk = (ttl, dir, desc) => {
+    const b = $(`<div class="lesson"><div class="ttl">${ttl}</div><div class="count">${desc}</div></div>`)
+    b.onclick = () => beginVocab(cp, dir)
+    return b
+  }
+  app.appendChild(mk('Latin → English', 'la2en', 'See a Latin word, type what it means'))
+  app.appendChild(mk('English → Latin', 'en2la', 'See the meaning, type the Latin word'))
+  app.appendChild(mk('Both (mixed)', 'mixed', 'A mix of both directions'))
+  const back = $(`<button class="btn ghost">← Back to lessons</button>`)
+  back.onclick = home
+  foot.appendChild(back)
+}
+
+function vocabItem(cp, entry, dir){
+  return { type: 'vocab', direction: dir, entry, checkpoint_id: cp.id,
+    prompt: dir === 'la2en' ? `What does *${entry.word}* mean?`
+                            : `Type the Latin word that means: **${entry.gloss}**` }
+}
+
+function beginVocab(cp, dir){
+  const v = (cp.vocab || []).filter(e => e.gloss)   // need a gloss to test against
+  const items = []
+  for (const e of v){
+    if (dir === 'la2en' || dir === 'mixed') items.push(vocabItem(cp, e, 'la2en'))
+    if (dir === 'en2la' || dir === 'mixed') items.push(vocabItem(cp, e, 'en2la'))
+  }
+  shuffle(items)
+  const dl = {la2en:'LA→EN', en2la:'EN→LA', mixed:'mixed'}[dir]
+  begin(items, `${cp.label} — vocab (${dl})`)
+}
+
 function begin(qs, title){
   queue = qs; pos = 0; score = 0; missed = []; window._title = title
   render()
@@ -270,10 +347,12 @@ function render(){
   app.querySelector('#quit').onclick = home
   app.appendChild($(`<div class="qcount">${window._title} · question ${pos+1} of ${queue.length}</div>`))
   const promptEl = $(`<div class="prompt">${fmt(q.prompt)}</div>`)
-  app.appendChild(promptEl); linkLatin(promptEl)
+  app.appendChild(promptEl)
+  if (q.type !== 'vocab') linkLatin(promptEl)   // vocab prompts get an explicit play button instead
   const body = $(`<div id="body"></div>`); app.appendChild(body)
 
-  if (q.type === 'free_text') renderText(q, body)
+  if (q.type === 'vocab') renderVocab(q, body)
+  else if (q.type === 'free_text') renderText(q, body)
   else if (q.type === 'ordered_tokens') renderOrdered(q, body)
   else renderChoice(q, body)
 }
@@ -364,6 +443,32 @@ function gradeText(q, body){
   const ok = q.answer.some(a => norm(a) === norm(inp.value))
   inp.disabled = true; inp.classList.add(ok?'right':'wrong')
   finish(q, ok, q.answer.join(' / '), body)
+}
+
+/* ---- vocabulary tester (reuses the free-text input + finish/results) ---- */
+function renderVocab(q, body){
+  const e = q.entry
+  if (q.direction === 'la2en' && e.audio){
+    const b = $(`<button class="play" title="play">▶ play</button>`)
+    b.onclick = () => playWord(clipKey(e.word))
+    body.appendChild(b)
+  }
+  const inp = $(`<input id="typed" autocomplete="off" autocapitalize="off" spellcheck="false"
+                  placeholder="${q.direction === 'en2la' ? 'type the Latin word' : 'type the meaning'}">`)
+  body.appendChild(inp)
+  inp.oninput = () => checkBtn.disabled = inp.value.trim() === ''
+  inp.onkeydown = ev => { if (ev.key === 'Enter' && !checkBtn.disabled) gradeVocab(q, body) }
+  const checkBtn = setFoot('Check', () => gradeVocab(q, body), {disabled:true})
+  setTimeout(() => inp.focus(), 50)
+}
+function gradeVocab(q, body){
+  const inp = body.querySelector('#typed')
+  const ok = vocabMatch(inp.value, q.entry, q.direction)
+  inp.disabled = true; inp.classList.add(ok ? 'right' : 'wrong')
+  const sol = q.direction === 'en2la'
+    ? acceptedLa(q.entry).join(' / ')
+    : (q.entry.accept_en && q.entry.accept_en.length ? q.entry.accept_en.join(' / ') : q.entry.gloss)
+  finish(q, ok, sol, body)
 }
 
 /* ---- shared finish + results ---- */
